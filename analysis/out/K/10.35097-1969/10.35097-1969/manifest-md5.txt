@@ -1,0 +1,14 @@
+6eb09ae51c8a9e9b4b02b33e739787ab  data/dataset/cell_eisv2.zip
+ae899b2330ab735aea745b66fac09854  data/descriptive-md/dataset.desc_md.xml
+576711692fd3b5aaa6e0bf7f09bff1e9  data/dataset/Data Structure v05.3.xlsx
+b894469e86712b6021bb5364f7296891  data/dataset/cfg.zip
+ddcbe26e2ad8038e38a4991447d2e5e1  data/dataset/Cycling Experiment Cell Overview (2024-09-26 15-31).pdf
+ea9e1ec73d290b2ad3953f34206a1d3c  data/readme.txt
+cfd1ccfe4c6b8d04d5dbb9198c3c321f  data/technical-md/dataset.tech_md.xml
+1f7dc9797e69d0c18e5a7edea64eaf89  data/dataset/Battery Aging Data Plausibility Check v05.3 (colored).xlsx
+7a5fc1770ee595c6c44a51a0bf344e65  data/dataset/Cycling Experiment Cell Overview (2024-09-26 15-31).xlsx
+9c77a65ecdb274ecf2544bcfde462a86  data/dataset/Readme v2.pdf
+5c660fc53ac4ae4de5850143f629242a  data/dataset/cell_plsv2.zip
+b4f42914c8eaf176fd47e33e6f112d7c  data/dataset/cell_eocv2.zip
+44e1b2ef9d3fac36aef6ba7ae15db3c1  data/dataset/result_plot_examples.7z
+dbe338f8774af83f19c1074bcf8968a1  data/dataset/WLTP_Class_3b_cycle_power_profile.xlsx

@@ -1,0 +1,4 @@
+ea9e1ec73d290b2ad3953f34206a1d3c  data/readme.txt
+173a26d6e33db0d8f8aae89729d088b1  data/technical-md/dataset.tech_md.xml
+a04241426f4a0b75ac2e0ad8a797c3a7  data/descriptive-md/dataset.desc_md.xml
+efed929fda77f22028322905b002b429  data/dataset/cell_eisv2_fixed.zip

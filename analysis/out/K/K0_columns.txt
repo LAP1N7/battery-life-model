@@ -1,0 +1,110 @@
+=== EOC: cell_eocv2_P000_0_S20_C00.csv (57열) ===
+  timestamp_s  [object]  예: 
+  timestamp_origin  [object]  예: 
+  sd_block_id  [object]  예: 
+  cyc_condition  [object]  예: 
+  cyc_charged  [object]  예: 
+  age_type  [object]  예: 
+  age_temp  [object]  예: 
+  age_soc  [object]  예: 
+  age_chg_rate  [object]  예: 
+  age_dischg_rate  [object]  예: 
+  age_profile  [object]  예: 
+  v_max_target_V  [object]  예: 
+  v_min_target_V  [object]  예: 
+  i_chg_max_A  [object]  예: 
+  i_dischg_min_A  [object]  예: 
+  i_chg_cutoff_A  [object]  예: 
+  i_dischg_cutoff_A  [object]  예: 
+  cap_aged_est_Ah  [object]  예: 
+  soh_cap  [object]  예: 
+  delta_q_Ah  [object]  예: 
+  delta_q_chg_Ah  [object]  예: 
+  delta_q_dischg_Ah  [object]  예: 
+  delta_e_Wh  [object]  예: 
+  delta_e_chg_Wh  [object]  예: 
+  delta_e_dischg_Wh  [object]  예: 
+  coulomb_efficiency  [object]  예: 
+  energy_efficiency  [object]  예: 
+  ocv_est_start_V  [object]  예: 
+  ocv_est_end_V  [object]  예: 
+  soc_est_start  [object]  예: 
+  soc_est_end  [object]  예: 
+  t_start_degC  [object]  예: 
+  t_end_degC  [object]  예: 
+  cyc_duration_s  [object]  예: 
+  num_cycles_op  [object]  예: 
+  num_cycles_checkup  [object]  예: 
+  total_q_chg_CU_RT_Ah  [object]  예: 
+  total_q_dischg_CU_RT_Ah  [object]  예: 
+  total_q_chg_cyc_OT_Ah  [object]  예: 
+  total_q_dischg_cyc_OT_Ah  [object]  예: 
+  total_q_chg_other_RT_Ah  [object]  예: 
+  total_q_dischg_other_RT_Ah  [object]  예: 
+  total_q_chg_other_OT_Ah  [object]  예: 
+  total_q_dischg_other_OT_Ah  [object]  예: 
+  total_q_chg_sum_Ah  [object]  예: 
+  total_q_dischg_sum_Ah  [object]  예: 
+  total_e_chg_CU_RT_Wh  [object]  예: 
+  total_e_dischg_CU_RT_Wh  [object]  예: 
+  total_e_chg_cyc_OT_Wh  [object]  예: 
+  total_e_dischg_cyc_OT_Wh  [object]  예: 
+  total_e_chg_other_RT_Wh  [object]  예: 
+  total_e_dischg_other_RT_Wh  [object]  예: 
+  total_e_chg_other_OT_Wh  [object]  예: 
+  total_e_dischg_other_OT_Wh  [object]  예: 
+  total_e_chg_sum_Wh  [object]  예: 
+  total_e_dischg_sum_Wh  [object]  예: 
+  uptime_ticks  [object]  예: 
+=== EIS: cell_eisv2_P000_0_S20_C00.csv (22열) ===
+  timestamp_s  [object]  예: 
+  timestamp_origin  [object]  예: 
+  sd_block_id  [object]  예: 
+  cyc_charged  [object]  예: 
+  is_rt  [object]  예: 
+  soc_nom  [object]  예: 
+  valid  [object]  예: 
+  z_ref_init_mOhm  [object]  예: 
+  z_ref_now_mOhm  [object]  예: 
+  soh_imp  [object]  예: 
+  ocv_est_avg_V  [object]  예: 
+  t_avg_degC  [object]  예: 
+  eis_duration_s  [object]  예: 
+  uptime_ticks  [object]  예: 
+  seq_nr  [object]  예: 
+  freq_Hz  [object]  예: 
+  z_amp_mOhm  [object]  예: 
+  z_ph_deg  [object]  예: 
+  z_amp_comp_mOhm  [object]  예: 
+  z_ph_comp_deg  [object]  예: 
+  z_re_comp_mOhm  [object]  예: 
+  z_im_comp_mOhm  [object]  예: 
+=== CFG: cell_cfg_P000_0_S20_C00.csv (28열) ===
+  sd_block_id  [int64]  예: 67108864
+  slave_id  [int64]  예: 20
+  cell_id  [int64]  예: 0
+  parameter_id  [int64]  예: 0
+  parameter_nr  [int64]  예: 0
+  cell_used  [int64]  예: 1
+  cell_type  [int64]  예: 3
+  t_sns_type  [int64]  예: 1
+  age_type  [int64]  예: 1
+  age_temp  [int64]  예: 0
+  age_soc  [int64]  예: 10
+  age_chg_rate  [float64]  예: 0.0
+  age_dischg_rate  [float64]  예: 0.0
+  age_profile  [int64]  예: 0
+  V_max_cyc_V  [float64]  예: 3.3
+  V_min_cyc_V  [float64]  예: 3.3
+  V_max_cu_V  [float64]  예: 4.2
+  V_min_cu_V  [float64]  예: 2.5
+  I_chg_max_cyc_A  [float64]  예: 1.0
+  I_dischg_max_cyc_A  [float64]  예: -1.0
+  I_chg_max_cu_A  [float64]  예: 1.0
+  I_dischg_max_cu_A  [float64]  예: -1.0
+  I_chg_cutoff_cyc_A  [float64]  예: 0.15
+  I_dischg_cutoff_cyc_A  [float64]  예: -0.15
+  I_chg_cutoff_cu_A  [float64]  예: 0.15
+  I_dischg_cutoff_cu_A  [float64]  예: -0.15
+  I_chg_pulse_cu_A  [float64]  예: 1.0
+  I_dischg_pulse_cu_A  [float64]  예: -1.0

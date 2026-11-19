@@ -22,7 +22,7 @@ import re, glob, os
 import numpy as np, pandas as pd
 from common import OUT
 
-KIT = OUT.parent.parent / "KIT"          # Mothat/KIT
+KIT = OUT / "K"          # Mothat/KIT
 KOUT = OUT / "K"; KOUT.mkdir(exist_ok=True)
 SOH_TH = 0.85
 RT_RANGE = (20.0, 30.0)                   # 상온 판정: EIS 평균 온도가 이 범위 [°C]
@@ -105,7 +105,7 @@ eis_ok, eis_info = [], {}
 if eis_files:
     e0 = read_csv_any(eis_files[0], nrows=5); ecols = list(e0.columns)
     c_ets = pick(ecols, "timestamp", avoid=("origin",)); c_f = pick(ecols, "freq")
-    c_T = pick(ecols, "t_avg") or pick(ecols, "temp"); c_soc = pick(ecols, "soc")
+    c_T = pick(ecols, "t_avg_degc") or pick(ecols, "temp"); c_soc = pick(ecols, "soc")
     c_re = pick(ecols, "z_re_comp"); c_im = pick(ecols, "z_im_comp"); c_econd = pick(ecols, "cond")
     eis_info = dict(시간=c_ets, 주파수=c_f, 온도=c_T, SoC=c_soc, 실수부=c_re, 허수부=c_im, 조건=c_econd)
     print(f"[③] 자동으로 찾은 EIS 열: {eis_info}")
