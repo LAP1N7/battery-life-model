@@ -1,4 +1,4 @@
-function out = fitECM(f, re, mim, opt)
+function out = fitECM_mohtat(f, re, mim, opt)
 %FITECM  등가회로(ECM) fitting + R1/R2 식별성 점검
 %   회로: Rs + jwL + R1||CPE1 + R2||CPE2 + 확산 CPE(Qw, nw)
 %   R||CPE는 시간상수 tau로 표현:  R / (1 + (jw*tau)^n)   (Q = tau^n / R 와 같은 식)
@@ -19,6 +19,10 @@ function out = fitECM(f, re, mim, opt)
 %     .nGood                 그런 해의 개수
 %     .separable             ratio >= ratioMin, spreadR1·spreadR2 <= spreadMax, 그리고 atEdge가 아님
 %     .relErr                |Z|로 나눈 상대 잔차의 RMS (Python fit_ecm의 err와 같은 정의)
+%     .n1, .n2, .nw          CPE 이상성 지수 (1 = 이상적 커패시터, 1보다 작을수록 반원이 눌림)  (11-19 추가, P5용)
+%     .spreadN2              거의 같은 품질로 맞는 해들 사이 n2 흔들림 = (최대 - 최소) / 중앙값
+%     .n2AtBound             n2가 피팅 범위 끝(0.5 또는 1)에서 0.01 이내 -> 경계에 붙음
+%   변경 이력: 11-18 tau 측정 창 제한·파라미터 스케일링 / 11-19 n1·n2·nw·spreadN2·n2AtBound 출력 추가 (피팅 자체는 그대로)
 %
 %   안전장치 (11-18 합의)
 %     ① 순서 고정: 해마다 tau로 정렬해 R1 = 빠른 과정, R2 = 느린 과정으로 이름을 고정 (라벨 바뀜 방지)
@@ -68,7 +72,7 @@ end
 [best, ib] = min(costs);
 p = sols(ib,:);
 good = costs <= best * (1 + opt.costTol);               % 거의 같은 품질로 맞는 해들
-R1s = sols(good, 3); R2s = sols(good, 6);
+R1s = sols(good, 3); R2s = sols(good, 6); N2s = sols(good, 8);
 spread = @(x) (max(x) - min(x)) / max(median(x), eps);
 
 [t1, t2] = taus(p);
@@ -80,6 +84,9 @@ edgeTol = 0.05;   % log10 기준으로 경계에서 0.05 이내면 '붙었다'�
 out.atEdge = any(abs(p([4 7]) - ltLo) < edgeTol) || any(abs(p([4 7]) - ltHi) < edgeTol);
 out.separable = out.ratio >= opt.ratioMin && out.spreadR1 <= opt.spreadMax && out.spreadR2 <= opt.spreadMax && ~out.atEdge;
 out.relErr = sqrt(best / numel(f));
+out.n1 = p(5); out.n2 = p(8); out.nw = p(10);                       % 11-19 추가 (P5)
+out.spreadN2 = spread(N2s);
+out.n2AtBound = abs(p(8) - LO(8)) < 0.01 || abs(p(8) - HI(8)) < 0.01;
 end
 
 function q = sortByTau(q)

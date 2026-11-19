@@ -2,7 +2,8 @@
 % 위치: ...\Mothat\matlab\  (데이터는 ...\Mothat\data, Python 결과는 ...\Mothat\analysis\out)
 % 필요: Optimization Toolbox (lsqnonlin)
 % 소요: 10분 안팎 예상 (스펙트럼 약 1,900개 x 시작점 6개, 미검증)
-% 출력 열: cell, ah, soc, Rs, R1, R2, Rint(=R1+R2), tau1, tau2, ratio, spreadR1, spreadR2, nGood, separable, relErr
+% 출력 열: cell, ah, soc, Rs, R1, R2, Rint(=R1+R2), tau1, tau2, ratio, spreadR1, spreadR2, nGood, atEdge, separable, relErr,
+%          n1, n2, nw, spreadN2, n2AtBound   (11-19 추가: P5 비이상성 검증용. 기존 열과 값은 그대로)
 % R1/R2 사용 규칙(11-18 합의): separable = 1 인 스펙트럼만 R1, R2를 따로 해석. 나머지는 Rint만.
 % 검증: Python(analysis\out\eis_fits.csv)과 같은 스펙트럼끼리 Rs, Rint 상대 차이를 출력
 
@@ -19,12 +20,13 @@ for c = CELLS
         s = spec(k);
         o = fitECM(s.f, s.re, s.mim);
         rows(end+1, :) = [c, s.ah, s.soc, o.Rs, o.R1, o.R2, o.Rint, o.tau1, o.tau2, o.ratio, ...
-                          o.spreadR1, o.spreadR2, o.nGood, o.atEdge, o.separable, o.relErr]; %#ok<AGROW>
+                          o.spreadR1, o.spreadR2, o.nGood, o.atEdge, o.separable, o.relErr, ...
+                          o.n1, o.n2, o.nw, o.spreadN2, o.n2AtBound]; %#ok<AGROW>
     end
     fprintf('cell %02d: 스펙트럼 %d개\n', c, numel(spec));
 end
 T = array2table(rows, 'VariableNames', {'cell', 'ah', 'soc', 'Rs', 'R1', 'R2', 'Rint', 'tau1', 'tau2', ...
-    'ratio', 'spreadR1', 'spreadR2', 'nGood', 'atEdge', 'separable', 'relErr'});
+    'ratio', 'spreadR1', 'spreadR2', 'nGood', 'atEdge', 'separable', 'relErr', 'n1', 'n2', 'nw', 'spreadN2', 'n2AtBound'});
 writetable(T, fullfile(outDir, 'ecm_matlab.csv'));
 fprintf('저장: %s\n', fullfile(outDir, 'ecm_matlab.csv'));
 fprintf('fit 상대 오차: 중앙값 %.4f, 최대 %.4f\n', median(T.relErr), max(T.relErr));
@@ -34,6 +36,9 @@ fprintf('  탈락 사유: tau 비율 < 20 → %d개, 흔들림 > 20%% → %d개,
 fprintf('  Rs가 0에 붙은 스펙트럼(Rs < 0.1 mOhm): %d개 (수정 전 417개, 0에 가까워야 정상)\n', sum(T.Rs < 1e-4));
 bol = T.ah < 1;
 fprintf('  새것(BOL) 스펙트럼 중 분리 가능: %d / %d\n', sum(T.separable & bol), sum(bol));
+use = T.separable == 1 & T.spreadN2 <= 0.2;   % P5 사용 조건 (11-19 합의)
+fprintf('\n[P5용 n2] 중앙값 %.3f (범위 %.3f~%.3f) | separable 중 흔들림 20%% 이하: %d / %d | 경계(0.5 또는 1)에 붙음: %d개\n', ...
+        median(T.n2), min(T.n2), max(T.n2), sum(use), sum(T.separable), sum(T.n2AtBound));
 
 %% Python 결과와 대조 (같은 cell, ah, soc)
 pyFile = fullfile(here, '..', 'analysis', 'out', 'eis_fits.csv');

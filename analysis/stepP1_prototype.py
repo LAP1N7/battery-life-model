@@ -23,6 +23,8 @@
 입력: out/c20.csv, out/checkup_time.csv, out/A4_fair.csv, ../matlab/out/ecm_matlab.csv
 출력: out/P1_pred.csv, out/P1_pred.png
 소요: 1~3분 (섞은 값 시험 포함)
+변경 이력: 2026-11-18 최초 작성
+           2026-11-19 P1_pred.csv 저장을 유효숫자 6자리로 변경 (round(4)가 A·B 값을 뭉개 P3 ② 판정을 훼손함)
 """
 import numpy as np, pandas as pd
 import matplotlib.pyplot as plt
@@ -123,7 +125,7 @@ print("\r[섞은 값 시험] x를 섞은 %d회: 중앙값 %.3f, 최소 %.3f | �
 
 # ---------- 5. 저장 ----------
 for k, p in res.items(): D["pred " + k[:2]] = p
-D.round(4).to_csv(OUT / "P1_pred.csv", index=False)
+D.to_csv(OUT / "P1_pred.csv", index=False, float_format="%.6g")   # 반올림 금지: A·B는 1e-4 크기
 fig, ax = plt.subplots(figsize=(6, 6))
 for k, mk in [("① 용량만 (f 공통)", "s"), ("③ M2b 사후 (a + b·x, EIS)", "o")]:
     ax.scatter(D.life, res[k], marker=mk, label=k, alpha=.8)
