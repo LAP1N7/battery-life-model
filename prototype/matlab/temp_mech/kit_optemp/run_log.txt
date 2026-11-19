@@ -1,0 +1,43 @@
+﻿Found 228 EIS files in C:\Users\USER\Desktop\켄\prototype\matlab\kit_optemp\..\..\..\data\kit_radar\eis_addendum\cell_eisv2_fixed
+Progress: 20 / 228 files processed
+Progress: 40 / 228 files processed
+Progress: 60 / 228 files processed
+Progress: 80 / 228 files processed
+Progress: 100 / 228 files processed
+Progress: 120 / 228 files processed
+Progress: 140 / 228 files processed
+Progress: 160 / 228 files processed
+Progress: 180 / 228 files processed
+Progress: 200 / 228 files processed
+Progress: 220 / 228 files processed
+Progress: 228 / 228 files processed
+
+=== Spectrum count verification by T_age ===
+   T_age    n(is_rt==0)    n(is_rt==1)    n_cells
+       0           3588           3549         57
+      10           4222           4200         57
+      25           5051           5031         57
+      40           4787           4768         57
+
+=== Pair counts per T_age ===
+   T_age    n_pairs    n_cells
+       0       3584         57
+      10       4218         57
+      40       4774         57
+
+=== SOC 50 Median Ea [kJ/mol]: Fresh (SOH >= 0.98) vs Aged (SOH < 0.95) ===
+Component   T_age     Fresh_med_Ea    n_fresh      Aged_med_Ea     n_aged
+R0              0             2.25        108             2.95        492
+R0             10             1.85        110             2.62        616
+R0             40             1.68         86             2.30        778
+R_arc           0            53.61        108            48.77        484
+R_arc          10            53.08        110            47.09        613
+R_arc          40            58.87         86            42.66        761
+R_lf            0            -0.70        105             0.23        473
+R_lf           10             2.59        109            -3.76        597
+R_lf           40             2.71         81             9.99        737
+Re_lowf         0            18.50        108            20.30        492
+Re_lowf        10            15.09        110            17.06        616
+Re_lowf        40             8.47         86            10.89        778
+
+Done. Outputs written to C:\Users\USER\Desktop\켄\prototype\matlab\kit_optemp\out

@@ -1,0 +1,130 @@
+=== temp_eqs_main 시작 (2026-11-19 12:34:04) ===
+[0] 데이터 로딩 중...
+    KIT: 3428 rows, 228 cells
+    MOH: 239 rows, 21 cells
+    MREF: 21 rows
+
+=== [K] KIT equal-loss 비교 시작 ===
+[K] KIT equal-loss 그룹 요약:
+age_group  T_C  L(%)    n n_rat  med_dR0  med_dRa  med_rat   rel_dR0   rel_dRa
+cycling      0     5   45    21   -0.010    0.356    1.663   -0.0007    0.1015
+cycling     10     5   45    24    0.004    0.117    1.380    0.0003    0.0330
+cycling     25     5   45    28    0.032   -0.016   -0.599    0.0021   -0.0038
+cycling     40     5   45    36    0.087    0.272    1.445    0.0060    0.0669
+cycling      0    10   45    42    0.387    1.277    2.877    0.0257    0.3401
+cycling     10    10   45    42    0.243    1.052    3.786    0.0166    0.2904
+cycling     25    10   44    39    0.198    0.972    4.822    0.0136    0.2498
+cycling     40    10   45    45    0.367    1.373    2.891    0.0253    0.3472
+cycling      0    20   43    42    1.551    3.073    1.742    0.1069    0.8659
+cycling     10    20   44    44    1.557    3.250    2.144    0.1046    0.8565
+cycling     25    20   30    30    1.732    4.214    2.416    0.1185    1.0451
+cycling     40    20   39    39    2.024    4.448    2.152    0.1356    1.1579
+calendar     0     5   12     7    0.009   -0.290   -2.659    0.0006   -0.0874
+calendar    10     5   12    10    0.118   -0.340   -2.397    0.0079   -0.0934
+calendar    25     5   12    11    0.227   -0.193   -0.856    0.0158   -0.0478
+calendar    40     5   12    11    0.341    0.227    0.296    0.0232    0.0592
+
+[K] Paired sign test (ratio = dRarc/dR0):
+pair        L(%)     n     T>25 cold>hot  med(T-25)   med(c-h)   p_sign
+0_vs_25        5     9        9        9      3.163      3.163   0.0039
+0_vs_25       10    13        5        5     -1.031     -1.031   0.5811
+0_vs_25       20    10        1        1     -0.541     -0.541   0.0215
+10_vs_25       5    11        8        8      0.999      0.999   0.2266
+10_vs_25      10    13        5        5     -0.689     -0.689   0.5811
+10_vs_25      20    10        2        2     -0.571     -0.571   0.1094
+40_vs_25       5    10        9        1      1.901     -1.901   0.0215
+40_vs_25      10    13        6        7     -1.102      1.102   1.0000
+40_vs_25      20    10        3        7     -0.523      0.523   0.3438
+
+=== [S] 온도별 기울기 s(T) 및 Arrhenius 적합 시작 ===
+[S] 온도별 정규화 기울기 요약 (%/dataset   T_C    n         s_R0 (%/%)        s_arc (%/%)         s_arc/s_R0
+KIT         0   25    0.819 [  0.207]    4.722 [  1.239]    5.782 [  2.344]
+KIT        10   28    0.836 [  0.273]    5.282 [  2.435]    6.966 [  4.828]
+KIT        25   34    0.734 [  0.414]    4.897 [  2.470]    7.710 [  7.704]
+KIT        40   36    0.873 [  0.633]    5.595 [  1.982]    7.090 [  4.670]
+Mohtat     -5    7    1.610 [  0.368]    8.093 [  2.481]    4.963 [  0.694]
+Mohtat     25    6    2.054 [  0.775]    6.436 [  3.238]    2.875 [  0.796]
+Mohtat     45    6    2.665 [  1.035]    8.676 [  3.377]    2.882 [  1.149]
+
+[S] 참고: Mohtat은 3개 온도(-5/25/45 C)뿐이므로 4-파라미터 A2 모델은 식별 불가 -> Mohtat은 A1만 적합.
+
+[S] Arrhenius 적합 결과 요약 (단위: kJ/mol, 양수 Ea = 온도 상승 시 기울기 증가):
+dataset target mod    n      AIC    dAIC | Ea or Eh [95% CI]            | Ec [95% CI]                 
+KIT     R0     A1   122  -137.28    0.00 | Ea= -2.80 [ -6.13,  0.29]    | -                           
+KIT     R0     A2   122  -144.35   -7.06 | Eh=500.00 [ 64.34,500.00]    | Ec= 12.99 [  5.80, 22.81]   
+Mohtat  R0     A1    19   -54.12    0.00 | Ea=  6.25 [  3.60,  8.95]    | -                           
+Joint   R0     A1   141  -171.26    0.00 | Ea= -0.66 [ -3.13,  1.77]    | -                           
+Joint   R0     A2   141  -177.64   -6.38 | Eh= 30.77 [ 12.20,403.99]    | Ec= 26.92 [  8.89, 42.32]   
+KIT     arc    A1   123  -194.55    0.00 | Ea= -1.62 [ -6.32,  2.41]    | -                           
+KIT     arc    A2   123  -191.70    2.85 | Eh=  2.47 [  0.00,442.72]    | Ec= 71.95 [  0.00,500.00]   
+Mohtat  arc    A1    19   -39.86    0.00 | Ea= -0.94 [ -4.42,  2.38]    | -                           
+Joint   arc    A1   142  -234.21    0.00 | Ea= -1.46 [ -5.38,  1.54]    | -                           
+Joint   arc    A2   142  -231.18    3.04 | Eh= 44.37 [  0.33,451.03]    | Ec=  8.98 [  0.41,179.84]   
+KIT     ratio  A1   122  -126.92    0.00 | Ea=  2.51 [ -1.42,  6.10]    | -                           
+Mohtat  ratio  A1    19   -57.09    0.00 | Ea= -7.19 [ -9.78, -4.60]    | -                           
+Joint   ratio  A1   141  -159.69    0.00 | Ea=  0.22 [ -2.96,  3.26]    | -                           
+
+[S] 최종 방정식 (정규화 기울기 s = s_cell/R_ref, 단위: fraction / % loss):
+  [KIT | R0 | A1] s_R0(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 0.007287, Ea = -2.80 kJ/mol
+  [KIT | R0 | A2] s_R0(T) = s_h*exp[-Eh/R*(1/T - 1/298.15)] + s_c*exp[+Ec/R*(1/T - 1/298.15)], s_h = 2.287e-07, s_c = 0.005731, Eh = 500.00 kJ/mol, Ec = 12.99 kJ/mol
+  [Mohtat | R0 | A1] s_R0(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 0.0221, Ea = 6.25 kJ/mol
+  [Joint | R0 | A1] s_R0(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref(KIT) = 0.007388, s_ref(MOH) = 0.02083, Ea = -0.66 kJ/mol
+  [Joint | R0 | A2] s_R0(T) = s_h*exp[-Eh/R*(1/T - 1/298.15)] + s_c*exp[+Ec/R*(1/T - 1/298.15)], KIT(s_h=0.003218,s_c=0.003076), MOH(s_h=0.01311,s_c=0.004275), Eh = 30.77 kJ/mol, Ec = 26.92 kJ/mol
+  [KIT | arc | A1] s_arc(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 0.05385, Ea = -1.62 kJ/mol
+  [KIT | arc | A2] s_arc(T) = s_h*exp[-Eh/R*(1/T - 1/298.15)] + s_c*exp[+Ec/R*(1/T - 1/298.15)], s_h = 0.05111, s_c = 0.0009698, Eh = 2.47 kJ/mol, Ec = 71.95 kJ/mol
+  [Mohtat | arc | A1] s_arc(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 0.07523, Ea = -0.94 kJ/mol
+  [Joint | arc | A1] s_arc(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref(KIT) = 0.0539, s_ref(MOH) = 0.07489, Ea = -1.46 kJ/mol
+  [Joint | arc | A2] s_arc(T) = s_h*exp[-Eh/R*(1/T - 1/298.15)] + s_c*exp[+Ec/R*(1/T - 1/298.15)], KIT(s_h=0.008012,s_c=0.04233), MOH(s_h=0.01299,s_c=0.05253), Eh = 44.37 kJ/mol, Ec = 8.98 kJ/mol
+  [KIT | ratio | A1] s_ratio(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 7.311, Ea = 2.51 kJ/mol
+  [Mohtat | ratio | A1] s_ratio(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref = 3.403, Ea = -7.19 kJ/mol
+  [Joint | ratio | A1] s_ratio(T) = s_ref*exp[-Ea/R*(1/T - 1/298.15)], s_ref(KIT) = 7.203, s_ref(MOH) = 3.628, Ea = 0.22 kJ/mol
+
+=== [P] Mohtat 동일 온도 내 모드 편상관 및 공선성 분석 시작 ===
+n per T is 7 cells at most, treat as exploratory.
+
+[P] 동일 손실(L=5,10%)에서 LLI 통제 편스피어만 상관 (Exploratory):
+T_group     L(%) resp   mode         rho    n
+C              5 dR0    LAM_PE     0.188    7
+C              5 dR0    LAM_NE    -0.022    7
+C              5 dRarc  LAM_PE     0.046    7
+C              5 dRarc  LAM_NE     0.556    7
+R              5 dR0    LAM_PE     0.139    6
+R              5 dR0    LAM_NE    -0.789    6
+R              5 dRarc  LAM_PE     0.221    6
+R              5 dRarc  LAM_NE    -0.746    6
+H              5 dR0    LAM_PE     0.808    7
+H              5 dR0    LAM_NE    -0.572    7
+H              5 dRarc  LAM_PE     0.130    7
+H              5 dRarc  LAM_NE    -0.117    7
+Pooled_FE      5 dR0    LAM_PE     0.516   20
+Pooled_FE      5 dR0    LAM_NE    -0.533   20
+Pooled_FE      5 dRarc  LAM_PE     0.242   20
+Pooled_FE      5 dRarc  LAM_NE     0.032   20
+C             10 dR0    LAM_PE     0.947    7
+C             10 dR0    LAM_NE     0.894    7
+C             10 dRarc  LAM_PE     0.578    7
+C             10 dRarc  LAM_NE     0.645    7
+R             10 dR0    LAM_PE     0.867    6
+R             10 dR0    LAM_NE    -0.820    6
+R             10 dRarc  LAM_PE     0.808    6
+R             10 dRarc  LAM_NE    -1.000    6
+H             10 dR0    LAM_PE     0.667    4
+H             10 dR0    LAM_NE    -0.667    4
+H             10 dRarc  LAM_PE    -1.000    4
+H             10 dRarc  LAM_NE     1.000    4
+Pooled_FE     10 dR0    LAM_PE     0.726   17
+Pooled_FE     10 dR0    LAM_NE    -0.222   17
+Pooled_FE     10 dRarc  LAM_PE     0.373   17
+Pooled_FE     10 dRarc  LAM_NE    -0.187   17
+
+[P] 전체 check-up 기준 LLI/LAM_PE/LAM_NE 공선성:
+T     T_C  rows cells  r(L,PE)  r(L,NE) r(PE,NE)  cond_raw  cond_std
+C      -5   105     7    0.948    0.995    0.946     40.39     23.27
+R      25    78     7    0.961    0.992    0.925     67.86     35.47
+H      45    56     7    0.850    0.995    0.835     30.87     24.31
+
+=== [그림] 시각화 생성 시작 ===
+[그림] 저장 완료: out\fig_K_equal_loss.png
+[그림] 저장 완료: out\fig_S_arrhenius.png
+
+=== 완료 (총 소요 시간: 69.12 s) ===
