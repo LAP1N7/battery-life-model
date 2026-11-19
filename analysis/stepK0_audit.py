@@ -22,7 +22,7 @@ import re, glob, os
 import numpy as np, pandas as pd
 from common import OUT
 
-KIT = OUT / "K"          # Mothat/KIT
+KIT = OUT.parent.parent / "KIT"          # Mothat/KIT
 KOUT = OUT / "K"; KOUT.mkdir(exist_ok=True)
 SOH_TH = 0.85
 RT_RANGE = (20.0, 30.0)                   # 상온 판정: EIS 평균 온도가 이 범위 [°C]
@@ -105,7 +105,7 @@ eis_ok, eis_info = [], {}
 if eis_files:
     e0 = read_csv_any(eis_files[0], nrows=5); ecols = list(e0.columns)
     c_ets = pick(ecols, "timestamp", avoid=("origin",)); c_f = pick(ecols, "freq")
-    c_T = pick(ecols, "t_avg_degc") or pick(ecols, "temp"); c_soc = pick(ecols, "soc")
+    c_T = pick(ecols, "t_avg") or pick(ecols, "temp"); c_soc = pick(ecols, "soc")
     c_re = pick(ecols, "z_re_comp"); c_im = pick(ecols, "z_im_comp"); c_econd = pick(ecols, "cond")
     eis_info = dict(시간=c_ets, 주파수=c_f, 온도=c_T, SoC=c_soc, 실수부=c_re, 허수부=c_im, 조건=c_econd)
     print(f"[③] 자동으로 찾은 EIS 열: {eis_info}")
@@ -159,7 +159,7 @@ md = f"""# K0_audit — KIT 데이터 점검 결과 (트랙 B, 과업 B2)
 
 ## ② check-up별 시간·누적 충전량
 - 시간 열: `{c_ts}` ({'있음' if c_ts else '없음 — 확인 필요'})
-- 누적 충전량 열: `{c_q}` ({'있음 — EFC = 누적 Ah / (2 x 3 Ah)로 계산 가능' if c_q else '없음 — LOG_AGE 필요 여부 확인'})
+- 누적 충전량 열: `{c_q}` ({'있음 — EFC = 누적 Ah / (2 x 공칭 용량)로 계산 가능, 공칭 용량은 확인 필요' if c_q else '없음 — LOG_AGE 필요 여부 확인'})
 
 ## ③ 첫 check-up 상온 EIS
 - **첫 check-up에 상온 EIS가 있는 셀: {n_rt} / {len(S)}**
@@ -171,7 +171,8 @@ md = f"""# K0_audit — KIT 데이터 점검 결과 (트랙 B, 과업 B2)
 
 ## 발견한 문제 / 확인 필요
 """ + "\n".join(f"- {n}" for n in notes) + f"""
-- 온도 이상 구간(2022-11-27~29, 2023-04 25 °C 풀) 표시: 아직 안 함 — 로더(B3)에서 처리
+- 시간 열은 Unix 초로 가정 (밀리초면 t85·3일 창이 틀림 -> K0_columns.txt 예시값으로 확인)
+- 온도 이상 구간 표시: 아직 안 함 — 로더(B3)에서 처리 (구간은 데이터 논문으로 확인 필요)
 
 ## 결론 (정오 sync용)
 - KIT 사용: **{verdict}** — SOH {SOH_TH} 도달 {n_reach}셀
