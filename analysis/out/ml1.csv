@@ -1,0 +1,6 @@
+features,GPR,Ridge
+Ah throughput (baseline),4.25,4.32
+"|Z| (1, 0.1 Hz)",4.9,5.6
+phase (10..0.01 Hz),3.78,4.29
+"physics (Rs, Rint, shape)",7.57,5.55
+physics + phase,3.91,4.62
