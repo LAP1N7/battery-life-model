@@ -1,0 +1,91 @@
+test,variant,subset,n,rho,p
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",all,17,0.6868,0.002323
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within C,5,-0.5643,0.3217
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within H,5,0.8,0.1041
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within R,7,0.8649,0.01197
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",pooled within T (rank-demeaned),17,0.6943,0.004083
+H-D2a lin share ~ LAM share,"A,B as in file",all,17,0.6868,0.002323
+H-D2a lin share ~ LAM share,"A,B as in file",within C,5,-0.5643,0.3217
+H-D2a lin share ~ LAM share,"A,B as in file",within H,5,0.8,0.1041
+H-D2a lin share ~ LAM share,"A,B as in file",within R,7,0.8649,0.01197
+H-D2a lin share ~ LAM share,"A,B as in file",pooled within T (rank-demeaned),17,0.6943,0.004083
+secondary: lin share ~ LAM_NE share,"A,B as in file",all,17,0.8126,7.372e-05
+secondary: lin share ~ LAM_NE share,"A,B as in file",within C,5,-0.5643,0.3217
+secondary: lin share ~ LAM_NE share,"A,B as in file",within H,5,0.6,0.2848
+secondary: lin share ~ LAM_NE share,"A,B as in file",within R,7,0.8289,0.02117
+secondary: lin share ~ LAM_NE share,"A,B as in file",pooled within T (rank-demeaned),17,0.4217,0.1174
+secondary: lin share ~ LAM_PE share,"A,B as in file",all,17,-0.5869,0.01325
+secondary: lin share ~ LAM_PE share,"A,B as in file",within C,5,-0.5643,0.3217
+secondary: lin share ~ LAM_PE share,"A,B as in file",within H,5,-0.2,0.7471
+secondary: lin share ~ LAM_PE share,"A,B as in file",within R,7,-0.2703,0.5577
+secondary: lin share ~ LAM_PE share,"A,B as in file",pooled within T (rank-demeaned),17,-0.437,0.1033
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",all,17,-0.2306,0.3733
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within C,5,0.2052,0.7406
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within H,5,-0.6,0.2848
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within R,7,-0.3063,0.504
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",pooled within T (rank-demeaned),17,-0.1791,0.5229
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",all,16,-0.04593,0.8659
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within C,5,0.1539,0.8048
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within H,4,-0.8,0.2
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within R,7,-0.5766,0.1754
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",pooled within T (rank-demeaned),16,-0.4198,0.1351
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded (same cells as file)",all,17,0.777,0.0002433
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded (same cells as file)",within C,5,0.6,0.2848
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded (same cells as file)",within H,5,0.8,0.1041
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded (same cells as file)",within R,7,0.8571,0.0137
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),17,0.8269,0.0001435
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded (same cells as file)",all,17,0.777,0.0002433
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded (same cells as file)",within C,5,0.6,0.2848
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded (same cells as file)",within H,5,0.8,0.1041
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded (same cells as file)",within R,7,0.8571,0.0137
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),17,0.8269,0.0001435
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded (same cells as file)",all,17,0.9093,4.274e-07
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded (same cells as file)",within C,5,0.3,0.6238
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded (same cells as file)",within H,5,0.6,0.2848
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded (same cells as file)",within R,7,0.8929,0.006807
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),17,0.7001,0.003658
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded (same cells as file)",all,17,-0.5025,0.03983
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded (same cells as file)",within C,5,0.6,0.2848
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded (same cells as file)",within H,5,-0.2,0.7471
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded (same cells as file)",within R,7,-0.3929,0.3833
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),17,-0.2954,0.2851
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded (same cells as file)",all,17,-0.3162,0.2163
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded (same cells as file)",within C,5,-0.1,0.8729
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded (same cells as file)",within H,5,-0.6,0.2848
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded (same cells as file)",within R,7,-0.4286,0.3374
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),17,-0.2622,0.3451
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded (same cells as file)",all,16,-0.06471,0.8118
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded (same cells as file)",within C,5,0.6,0.2848
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded (same cells as file)",within H,4,-0.8,0.2
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded (same cells as file)",within R,7,-0.6429,0.1194
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded (same cells as file)",pooled within T (rank-demeaned),16,-0.3549,0.213
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded, all 21 cells",all,21,0.8571,6.953e-07
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded, all 21 cells",within C,7,0.5714,0.1802
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded, all 21 cells",within H,7,0.9286,0.002519
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded, all 21 cells",within R,7,0.8571,0.0137
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),21,0.815,2.14e-05
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded, all 21 cells",all,21,0.8571,6.953e-07
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded, all 21 cells",within C,7,0.5714,0.1802
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded, all 21 cells",within H,7,0.9286,0.002519
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded, all 21 cells",within R,7,0.8571,0.0137
+H-D2a lin share ~ LAM share,"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),21,0.815,2.14e-05
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded, all 21 cells",all,21,0.9299,1.081e-09
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded, all 21 cells",within C,7,0.4286,0.3374
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded, all 21 cells",within H,7,0.8571,0.0137
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded, all 21 cells",within R,7,0.8929,0.006807
+secondary: lin share ~ LAM_NE share,"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),21,0.7,0.000848
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded, all 21 cells",all,21,-0.5519,0.009482
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded, all 21 cells",within C,7,0.5,0.2532
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded, all 21 cells",within H,7,-0.7143,0.07134
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded, all 21 cells",within R,7,-0.3929,0.3833
+secondary: lin share ~ LAM_PE share,"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),21,-0.2671,0.2689
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded, all 21 cells",all,21,-0.4208,0.05751
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded, all 21 cells",within C,7,-0.2143,0.6445
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded, all 21 cells",within H,7,-0.6429,0.1194
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded, all 21 cells",within R,7,-0.4286,0.3374
+H-D2b irreversible expansion (clean) ~ lin share,"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),21,-0.3306,0.1668
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded, all 21 cells",all,20,0.02256,0.9248
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded, all 21 cells",within C,7,0.1071,0.8192
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded, all 21 cells",within H,6,-0.6,0.208
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded, all 21 cells",within R,7,-0.6429,0.1194
+secondary: expansion dX_irr_r1 ~ lin share,"A,B recomputed unrounded, all 21 cells",pooled within T (rank-demeaned),20,-0.2797,0.261
