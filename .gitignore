@@ -13,3 +13,11 @@ __pycache__/
 # ---- MATLAB 임시·작업 파일 ----
 *.asv
 *.mat
+
+# ---- 실행하면 생기는 결과 (각자 생성, 그림은 대시보드로 공유) ----
+analysis/out/**/*.png
+analysis/out/P2/
+analysis/out/eis_fits.csv
+analysis/out/P2_window.csv
+analysis/out/checkups.csv
+matlab/out/
