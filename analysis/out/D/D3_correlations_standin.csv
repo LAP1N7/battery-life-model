@@ -1,0 +1,31 @@
+test,variant,subset,n,rho,p
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",all,21,0.8618,5.174e-07
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within C,7,-0.3571,0.4316
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within H,7,0.9636,0.0004753
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",within R,7,0.8154,0.0254
+H-D1 sqrt share ~ LLI share (== H-D2a mirrored),"A,B as in file",pooled within T (rank-demeaned),21,0.6904,0.001067
+H-D2a lin share ~ LAM share,"A,B as in file",all,21,0.8618,5.174e-07
+H-D2a lin share ~ LAM share,"A,B as in file",within C,7,-0.3571,0.4316
+H-D2a lin share ~ LAM share,"A,B as in file",within H,7,0.9636,0.0004753
+H-D2a lin share ~ LAM share,"A,B as in file",within R,7,0.8154,0.0254
+H-D2a lin share ~ LAM share,"A,B as in file",pooled within T (rank-demeaned),21,0.6904,0.001067
+secondary: lin share ~ LAM_NE share,"A,B as in file",all,21,0.7534,8.049e-05
+secondary: lin share ~ LAM_NE share,"A,B as in file",within C,7,-0.4643,0.2939
+secondary: lin share ~ LAM_NE share,"A,B as in file",within H,7,0.9266,0.002697
+secondary: lin share ~ LAM_NE share,"A,B as in file",within R,7,0.8154,0.0254
+secondary: lin share ~ LAM_NE share,"A,B as in file",pooled within T (rank-demeaned),21,0.5071,0.02671
+secondary: lin share ~ LAM_PE share,"A,B as in file",all,21,-0.333,0.1402
+secondary: lin share ~ LAM_PE share,"A,B as in file",within C,7,-0.3929,0.3833
+secondary: lin share ~ LAM_PE share,"A,B as in file",within H,7,-0.7042,0.07735
+secondary: lin share ~ LAM_PE share,"A,B as in file",within R,7,-0.3336,0.4647
+secondary: lin share ~ LAM_PE share,"A,B as in file",pooled within T (rank-demeaned),21,-0.4245,0.07006
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",all,21,-0.4677,0.03253
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within C,7,0.6071,0.1482
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within H,7,-0.7412,0.05658
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",within R,7,-0.1853,0.6908
+H-D2b irreversible expansion (clean) ~ lin share,"A,B as in file",pooled within T (rank-demeaned),21,-0.1638,0.5029
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",all,20,-0.2134,0.3664
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within C,7,0.6429,0.1194
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within H,6,-0.8804,0.0206
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",within R,7,-0.3706,0.4131
+secondary: expansion dX_irr_r1 ~ lin share,"A,B as in file",pooled within T (rank-demeaned),20,-0.3087,0.2127

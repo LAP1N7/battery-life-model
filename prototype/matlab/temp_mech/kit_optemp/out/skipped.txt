@@ -1,0 +1,4 @@
+# Skipped files and spectrum QC summary
+# Total files scanned: 228, files with valid spectra: 228, skipped files: 0
+# Spectra skipped for npts < 25: 0
+# Spectra skipped for capacitive sign check (median mim 1-100 Hz <= 0): 0
