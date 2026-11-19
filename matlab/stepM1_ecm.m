@@ -18,7 +18,7 @@ for c = CELLS
     spec = loadEIS(dataDir, c);
     for k = 1:numel(spec)
         s = spec(k);
-        o = fitECM(s.f, s.re, s.mim);
+        o = fitECM_mohtat(s.f, s.re, s.mim);
         rows(end+1, :) = [c, s.ah, s.soc, o.Rs, o.R1, o.R2, o.Rint, o.tau1, o.tau2, o.ratio, ...
                           o.spreadR1, o.spreadR2, o.nGood, o.atEdge, o.separable, o.relErr, ...
                           o.n1, o.n2, o.nw, o.spreadN2, o.n2AtBound]; %#ok<AGROW>
