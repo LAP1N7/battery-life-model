@@ -1,0 +1,497 @@
+﻿cell,ah,branch,n_runs,longest_len,n_outside,I_range_outside,effect_metric,V_range_outside,pos_outside,n_before,n_after,n_mask,q_monotonic_all,maxdV_mV,maxddVdQ,xpk_all,xpk_run,dcap_Ah,dcap_pct,affected
+1,0,charge,1,7357,0,,none (no outside samples),,,,,7357,True,0,0,0.59252,0.59252,,,False
+1,0,discharge,1,7163,0,,none (no outside samples),,,,,7163,,,,,,0,0,False
+1,394.329,charge,2,6960,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.602->0.602,4.200..4.200,after,0,1,6961,True,0,0,0.602083,0.602083,,,False
+1,394.329,discharge,3,6882,9,-353..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,9,0,6891,,,,,,0,0,False
+1,561.56,charge,2,6761,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.600->0.600,4.200..4.200,after,0,1,6762,True,0,0,0.599572,0.599572,,,False
+1,561.56,discharge,3,6759,14,-365..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,14,0,6773,,,,,,0,0,False
+1,915.158,charge,1,6602,0,,none (no outside samples),,,,,6602,True,0,0,0.604396,0.604396,,,False
+1,915.158,discharge,3,6591,15,-342..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,15,0,6606,,,,,,0,0,False
+1,1230.7,charge,1,6462,0,,none (no outside samples),,,,,6462,True,0,0,0.606742,0.606742,,,False
+1,1230.7,discharge,3,6445,13,-328..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6458,,,,,,0,0,False
+1,1590.59,charge,1,6374,0,,none (no outside samples),,,,,6374,True,0,0,0.602273,0.602273,,,False
+1,1590.59,discharge,3,6299,5,-395..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,5,0,6304,,,,,,0,0,False
+1,1940.23,charge,1,6216,0,,none (no outside samples),,,,,6216,True,0,0,0.600467,0.600467,,,False
+1,1940.23,discharge,3,6129,5,-237..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,5,0,6134,,,,,,0,0,False
+1,2274.43,charge,2,6013,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.597->0.597,4.200..4.200,after,0,1,6014,True,0,0,0.596618,0.596618,,,False
+1,2274.43,discharge,3,5926,6,-394..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,6,0,5932,,,,,,0,0,False
+1,2600.55,charge,1,5704,0,,none (no outside samples),,,,,5704,True,0,0,0.590331,0.590331,,,False
+1,2600.55,discharge,2,5665,5,-336..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,5,0,5670,,,,,,0,0,False
+1,2910.7,charge,1,5503,0,,none (no outside samples),,,,,5503,True,0,0,0.580475,0.580475,,,False
+1,2910.7,discharge,3,5404,7,-397..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,7,0,5411,,,,,,0,0,False
+1,3201.45,charge,2,5117,1,101..101,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.571->0.571,4.200..4.200,after,0,1,5118,True,0,0,0.571023,0.571023,,,False
+1,3201.45,discharge,2,5013,5,-359..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,5,0,5018,,,,,,0,0,False
+2,0,charge,1,7350,0,,none (no outside samples),,,,,7350,True,0,0,0.595661,0.595661,,,False
+2,0,discharge,1,7166,0,,none (no outside samples),,,,,7166,,,,,,0,0,False
+2,160.136,charge,2,6967,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.601->0.601,4.200..4.200,after,0,1,6968,True,0,0,0.600832,0.600832,,,False
+2,160.136,discharge,2,6952,15,-379..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,15,0,6967,,,,,,0,0,False
+2,383.628,charge,1,6844,0,,none (no outside samples),,,,,6844,True,0,0,0.610169,0.610169,,,False
+2,383.628,discharge,3,6797,12,-365..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,12,0,6809,,,,,,0,0,False
+2,460.906,charge,1,6738,0,,none (no outside samples),,,,,6738,True,0,0,0.612903,0.612903,,,False
+2,460.906,discharge,3,6702,13,-389..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6715,,,,,,0,0,False
+2,613.107,charge,2,6640,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.616->0.616,4.200..4.200,after,0,1,6641,True,0,0,0.615721,0.615721,,,False
+2,613.107,discharge,3,6608,12,-362..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,12,0,6620,,,,,,0,0,False
+2,787.03,charge,1,6573,0,,none (no outside samples),,,,,6573,True,0,0,0.615894,0.615894,,,False
+2,787.03,discharge,2,6538,11,-349..-105,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,11,0,6549,,,,,,0,0,False
+2,918.459,charge,1,6518,0,,none (no outside samples),,,,,6518,True,0,0,0.615556,0.615556,,,False
+2,918.459,discharge,2,6481,11,-338..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,11,0,6492,,,,,,0,0,False
+2,1094.8,charge,2,6427,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.619->0.619,4.200..4.200,after,0,1,6428,True,0,0,0.61851,0.61851,,,False
+2,1094.8,discharge,3,6388,13,-348..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6401,,,,,,0,0,False
+2,1315.3,charge,1,6299,0,,none (no outside samples),,,,,6299,True,0,0,0.62212,0.62212,,,False
+2,1315.3,discharge,2,6280,16,-316..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,16,0,6296,,,,,,0,0,False
+2,1491.82,charge,1,6209,0,,none (no outside samples),,,,,6209,True,0,0,0.623832,0.623832,,,False
+2,1491.82,discharge,2,6194,18,-305..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,18,0,6212,,,,,,0,0,False
+2,1664.12,charge,1,6126,0,,none (no outside samples),,,,,6126,True,0,0,0.625592,0.625592,,,False
+2,1664.12,discharge,2,6113,19,-297..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,19,0,6132,,,,,,0,0,False
+2,1838.77,charge,1,6075,0,,none (no outside samples),,,,,6075,True,0,0,0.625298,0.625298,,,False
+2,1838.77,discharge,2,6043,16,-295..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,16,0,6059,,,,,,0,0,False
+2,2011.75,charge,1,6011,0,,none (no outside samples),,,,,6011,True,0,0,0.625604,0.625604,,,False
+2,2011.75,discharge,2,5976,17,-308..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,17,0,5993,,,,,,0,0,False
+2,2187.23,charge,1,5892,0,,none (no outside samples),,,,,5892,True,0,0,0.625616,0.625616,,,False
+2,2187.23,discharge,3,5890,33,-320..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,33,0,5923,,,,,,0,0,False
+2,2342.59,charge,1,5864,0,,none (no outside samples),,,,,5864,True,0,0,0.626238,0.626238,,,False
+2,2342.59,discharge,2,5830,18,-281..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,18,0,5848,,,,,,0,0,False
+3,0,charge,1,7109,0,,none (no outside samples),,,,,7109,True,0,0,0.602851,0.602851,,,False
+3,0,discharge,2,12,1,-101..-101,d(cap.max)=1.04e-04 Ah (0.0620 %),3.000..3.000,after,0,1,13,,,,,,0.000103569,0.0620207,False
+3,47.1161,charge,2,6910,66,104..396,max|dV|=970.531 mV; max|d(dV/dQ)|=2.937 V/Ah; q_monotonic_all=False; xpk 0.742->0.608,4.200..4.200,before,66,0,6976,False,970.531,2.9372,0.742138,0.607966,,,True
+3,47.1161,discharge,1,6910,0,,none (no outside samples),,,,,6910,,,,,,0,0,False
+3,91.5933,charge,2,6801,63,105..397,max|dV|=962.221 mV; max|d(dV/dQ)|=5.020 V/Ah; q_monotonic_all=False; xpk 0.611->0.611,4.200..4.200,before,63,0,6864,False,962.221,5.02028,0.610638,0.610638,,,True
+3,91.5933,discharge,2,6802,1,-101..-101,d(cap.max)=2.80e-05 Ah (0.0006 %),3.000..3.000,after,0,1,6803,,,,,,2.79962e-05,0.000593208,False
+3,132.558,charge,2,6717,67,106..399,max|dV|=959.102 mV; max|d(dV/dQ)|=5.129 V/Ah; q_monotonic_all=False; xpk 0.614->0.614,4.200..4.200,before,67,0,6784,False,959.102,5.12871,0.614224,0.614224,,,True
+3,132.558,discharge,2,6718,1,-100..-100,d(cap.max)=8.43e-06 Ah (0.0002 %),3.000..3.000,after,0,1,6719,,,,,,8.42665e-06,0.000180768,False
+3,198.689,charge,2,6606,68,106..392,max|dV|=950.590 mV; max|d(dV/dQ)|=2.924 V/Ah; q_monotonic_all=False; xpk 0.735->0.616,4.200..4.200,before,68,0,6674,False,950.59,2.92355,0.734649,0.616228,,,True
+3,198.689,discharge,2,6611,1,-100..-100,d(cap.max)=3.21e-04 Ah (0.0070 %),3.000..3.000,after,0,1,6612,,,,,,0.000320964,0.0069964,False
+3,241.182,charge,3,6526,67,100..396,max|dV|=942.683 mV; max|d(dV/dQ)|=5.104 V/Ah; q_monotonic_all=False; xpk 0.616->0.616,4.200..4.200,before,67,0,6593,False,942.683,5.10405,0.616408,0.616408,,,True
+3,241.182,discharge,2,6531,1,-101..-101,d(cap.max)=2.78e-04 Ah (0.0061 %),3.000..3.000,after,0,1,6532,,,,,,0.000277626,0.00612591,False
+3,309.429,charge,2,6428,59,106..393,max|dV|=938.049 mV; max|d(dV/dQ)|=6.172 V/Ah; q_monotonic_all=False; xpk 0.617->0.617,4.200..4.200,before,59,0,6487,False,938.049,6.17216,0.617117,0.617117,,,True
+3,309.429,discharge,2,6439,1,-101..-101,d(cap.max)=2.62e-04 Ah (0.0059 %),3.000..3.000,after,0,1,6440,,,,,,0.000261508,0.00585175,False
+3,475.758,charge,1,6266,0,,none (no outside samples),,,,,6266,True,0,0,0.613426,0.613426,,,False
+3,475.758,discharge,2,6261,26,-338..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,26,0,6287,,,,,,0,0,False
+3,684.055,charge,1,6047,0,,none (no outside samples),,,,,6047,True,0,0,0.610577,0.610577,,,False
+3,684.055,discharge,3,6038,37,-340..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,37,0,6075,,,,,,0,0,False
+3,889.286,charge,1,5822,0,,none (no outside samples),,,,,5822,True,0,0,0.600998,0.600998,,,False
+3,889.286,discharge,3,5801,30,-317..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,30,0,5831,,,,,,0,0,False
+4,0,charge,1,7315,0,,none (no outside samples),,,,,7315,True,0,0,0.59604,0.59604,,,False
+4,0,discharge,1,7124,0,,none (no outside samples),,,,,7124,,,,,,0,0,False
+4,373.756,charge,1,6810,0,,none (no outside samples),,,,,6810,True,0,0,0.6,0.6,,,False
+4,373.756,discharge,2,6772,11,-383..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,6783,,,,,,0,0,False
+4,740.552,charge,1,6549,0,,none (no outside samples),,,,,6549,True,0,0,0.60177,0.60177,,,False
+4,740.552,discharge,2,6502,6,-280..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,6,0,6508,,,,,,0,0,False
+4,1094.18,charge,1,6318,0,,none (no outside samples),,,,,6318,True,0,0,0.598624,0.598624,,,False
+4,1094.18,discharge,3,6261,6,-237..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,6,0,6267,,,,,,0,0,False
+4,1433.87,charge,1,6037,0,,none (no outside samples),,,,,6037,True,0,0,0.596154,0.596154,,,False
+4,1433.87,discharge,3,5991,8,-351..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,8,0,5999,,,,,,0,0,False
+4,1757.74,charge,1,5673,0,,none (no outside samples),,,,,5673,True,0,0,0.592308,0.592308,,,False
+4,1757.74,discharge,3,5667,17,-310..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,5684,,,,,,0,0,False
+4,2063.19,charge,2,5375,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.589->0.589,4.200..4.200,after,0,1,5376,True,0,0,0.589189,0.589189,,,False
+4,2063.19,discharge,3,5347,13,-305..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,5360,,,,,,0,0,False
+4,2346.81,charge,1,4971,0,,none (no outside samples),,,,,4971,True,0,0,0.578947,0.578947,,,False
+4,2346.81,discharge,3,4946,16,-303..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,4962,,,,,,0,0,False
+4,2605.24,charge,2,4579,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.573->0.573,4.200..4.200,after,0,1,4580,True,0,0,0.573248,0.573248,,,False
+4,2605.24,discharge,3,4533,14,-324..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,4547,,,,,,0,0,False
+5,0,charge,1,7358,0,,none (no outside samples),,,,,7358,True,0,0,0.59252,0.59252,,,False
+5,0,discharge,1,7180,0,,none (no outside samples),,,,,7180,,,,,,0,0,False
+5,293.628,charge,1,6765,0,,none (no outside samples),,,,,6765,True,0,0,0.608137,0.608137,,,False
+5,293.628,discharge,2,6731,14,-373..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6745,,,,,,0,0,False
+5,584.389,charge,1,6536,0,,none (no outside samples),,,,,6536,True,0,0,0.620843,0.620843,,,False
+5,584.389,discharge,3,6472,14,-338..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6486,,,,,,0,0,False
+5,865.063,charge,2,6234,1,101..101,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.628->0.628,4.200..4.200,after,0,1,6235,True,0,0,0.627907,0.627907,,,False
+5,865.063,discharge,3,6202,21,-282..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,21,0,6223,,,,,,0,0,False
+5,1131.41,charge,1,6040,0,,none (no outside samples),,,,,6040,True,0,0,0.632212,0.632212,,,False
+5,1131.41,discharge,3,6006,19,-269..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,6025,,,,,,0,0,False
+5,1395.22,charge,1,5893,0,,none (no outside samples),,,,,5893,True,0,0,0.635468,0.635468,,,False
+5,1395.22,discharge,3,5848,15,-390..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,15,0,5863,,,,,,0,0,False
+5,1651.95,charge,1,5742,0,,none (no outside samples),,,,,5742,True,0,0,0.640506,0.640506,,,False
+5,1651.95,discharge,3,5690,11,-363..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5701,,,,,,0,0,False
+5,1899.55,charge,2,5560,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.645->0.645,4.200..4.200,after,0,1,5561,True,0,0,0.644909,0.644909,,,False
+5,1899.55,discharge,3,5520,11,-360..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5531,,,,,,0,0,False
+5,2139.06,charge,1,5390,0,,none (no outside samples),,,,,5390,True,0,0,0.649596,0.649596,,,False
+5,2139.06,discharge,3,5366,12,-332..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,5378,,,,,,0,0,False
+5,2366.72,charge,2,5232,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.644->0.644,4.200..4.200,after,0,1,5233,True,0,0,0.644444,0.644444,,,False
+5,2366.72,discharge,2,5203,17,-346..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,5220,,,,,,0,0,False
+5,2573.04,charge,1,5080,0,,none (no outside samples),,,,,5080,True,0,0,0.638968,0.638968,,,False
+5,2573.04,discharge,3,5049,30,-391..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,30,0,5079,,,,,,0,0,False
+5,2754.76,charge,1,4974,0,,none (no outside samples),,,,,4974,True,0,0,0.628655,0.628655,,,False
+5,2754.76,discharge,2,4928,29,-329..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,29,0,4957,,,,,,0,0,False
+5,2905.94,charge,1,4874,0,,none (no outside samples),,,,,4874,True,0,0,0.61976,0.61976,,,False
+5,2905.94,discharge,3,4832,39,-360..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,39,0,4871,,,,,,0,0,False
+5,3022.56,charge,1,4765,0,,none (no outside samples),,,,,4765,True,0,0,0.605505,0.605505,,,False
+5,3022.56,discharge,2,4728,56,-389..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,56,0,4784,,,,,,0,0,False
+5,3111.26,charge,1,4697,0,,none (no outside samples),,,,,4697,True,0,0,0.60559,0.60559,,,False
+5,3111.26,discharge,3,4667,58,-381..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,58,0,4725,,,,,,0,0,False
+6,0,charge,1,7170,0,,none (no outside samples),,,,,7170,True,0,0,0.6,0.6,,,False
+6,0,discharge,1,12,0,,none (no outside samples),,,,,12,,,,,,0,0,False
+6,294.046,charge,2,6781,69,106..395,max|dV|=977.107 mV; max|d(dV/dQ)|=2.295 V/Ah; q_monotonic_all=False; xpk nan->0.605,4.200..4.200,before,69,0,6850,False,977.107,2.29529,,0.604701,,,True
+6,294.046,discharge,1,6781,0,,none (no outside samples),,,,,6781,,,,,,0,0,False
+6,575.423,charge,2,6482,71,105..396,max|dV|=944.961 mV; max|d(dV/dQ)|=2.334 V/Ah; q_monotonic_all=False; xpk nan->0.600,4.200..4.200,before,71,0,6553,False,944.961,2.3338,,0.600446,,,True
+6,575.423,discharge,2,6483,1,-101..-101,d(cap.max)=2.48e-04 Ah (0.0055 %),3.000..3.000,after,0,1,6484,,,,,,0.000247645,0.00550398,False
+6,827.626,charge,3,6226,78,100..397,max|dV|=927.478 mV; max|d(dV/dQ)|=2.412 V/Ah; q_monotonic_all=False; xpk nan->0.598,4.200..4.200,before,78,0,6304,False,927.478,2.41187,,0.597674,,,True
+6,827.626,discharge,2,6228,1,-102..-102,d(cap.max)=2.04e-04 Ah (0.0047 %),3.000..3.000,after,0,1,6229,,,,,,0.000204163,0.0047239,False
+6,1068.93,charge,2,6009,84,103..390,max|dV|=929.895 mV; max|d(dV/dQ)|=2.562 V/Ah; q_monotonic_all=False; xpk nan->0.593,4.200..4.200,before,84,0,6093,False,929.895,2.56221,,0.592771,,,True
+6,1068.93,discharge,2,6008,1,-101..-101,d(cap.max)=1.92e-04 Ah (0.0046 %),3.000..3.000,after,0,1,6009,,,,,,0.000191507,0.00459276,False
+6,1300.82,charge,2,5742,87,103..394,max|dV|=898.178 mV; max|d(dV/dQ)|=2.584 V/Ah; q_monotonic_all=False; xpk nan->0.586,4.200..4.200,before,87,0,5829,False,898.178,2.58438,,0.585859,,,True
+6,1300.82,discharge,2,5745,1,-101..-101,d(cap.max)=1.85e-04 Ah (0.0046 %),3.000..3.000,after,0,1,5746,,,,,,0.000185174,0.00464421,False
+6,1522.17,charge,2,5492,95,104..395,max|dV|=891.723 mV; max|d(dV/dQ)|=2.739 V/Ah; q_monotonic_all=False; xpk nan->0.578,4.200..4.200,before,95,0,5587,False,891.723,2.73878,,0.577836,,,True
+6,1522.17,discharge,2,5492,1,-101..-101,d(cap.max)=1.81e-04 Ah (0.0047 %),3.000..3.000,after,0,1,5493,,,,,,0.000180851,0.00474499,False
+7,0,charge,1,7344,0,,none (no outside samples),,,,,7344,True,0,0,0.587771,0.587771,,,False
+7,0,discharge,1,7157,0,,none (no outside samples),,,,,7157,,,,,,0,0,False
+7,369.872,charge,1,6715,0,,none (no outside samples),,,,,6715,True,0,0,0.587473,0.587473,,,False
+7,369.872,discharge,3,6710,14,-331..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6724,,,,,,0,0,False
+7,727.108,charge,1,6316,0,,none (no outside samples),,,,,6316,True,0,0,0.584862,0.584862,,,False
+7,727.108,discharge,2,6308,11,-285..-105,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,6319,,,,,,0,0,False
+7,1063.16,charge,1,5857,0,,none (no outside samples),,,,,5857,True,0,0,0.579208,0.579208,,,False
+7,1063.16,discharge,3,5845,15,-366..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,15,0,5860,,,,,,0,0,False
+7,1372.43,charge,1,5398,0,,none (no outside samples),,,,,5398,True,0,0,0.567204,0.567204,,,False
+7,1372.43,discharge,3,5381,23,-324..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,23,0,5404,,,,,,0,0,False
+7,1650.21,charge,1,4779,0,,none (no outside samples),,,,,4779,True,0,0,0.550152,0.550152,,,False
+7,1650.21,discharge,2,4783,64,-332..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,64,0,4847,,,,,,0,0,False
+7,1888.02,charge,2,4155,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.526->0.526,4.200..4.200,after,0,1,4156,True,0,0,0.526316,0.526316,,,False
+7,1888.02,discharge,3,4130,23,-331..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,23,0,4153,,,,,,0,0,False
+8,0,charge,2,7278,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.600->0.600,4.200..4.200,after,0,1,7279,True,0,0,0.600398,0.600398,,,False
+8,0,discharge,1,7102,0,,none (no outside samples),,,,,7102,,,,,,0,0,False
+8,274.902,charge,1,6669,0,,none (no outside samples),,,,,6669,True,0,0,0.615217,0.615217,,,False
+8,274.902,discharge,2,6648,17,-362..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,6665,,,,,,0,0,False
+8,543.59,charge,1,6451,0,,none (no outside samples),,,,,6451,True,0,0,0.629213,0.629213,,,False
+8,543.59,discharge,2,6390,14,-324..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6404,,,,,,0,0,False
+8,799.805,charge,1,6159,0,,none (no outside samples),,,,,6159,True,0,0,0.635294,0.635294,,,False
+8,799.805,discharge,2,6131,19,-274..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,6150,,,,,,0,0,False
+8,1041.18,charge,2,5966,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.640->0.640,4.200..4.200,after,0,1,5967,True,0,0,0.639903,0.639903,,,False
+8,1041.18,discharge,3,5937,18,-396..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,5955,,,,,,0,0,False
+8,1275.93,charge,1,5829,0,,none (no outside samples),,,,,5829,True,0,0,0.641791,0.641791,,,False
+8,1275.93,discharge,3,5787,13,-372..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,5800,,,,,,0,0,False
+8,1503.05,charge,1,5691,0,,none (no outside samples),,,,,5691,True,0,0,0.645408,0.645408,,,False
+8,1503.05,discharge,3,5639,10,-346..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,10,0,5649,,,,,,0,0,False
+8,1722.3,charge,1,5510,0,,none (no outside samples),,,,,5510,True,0,0,0.65,0.65,,,False
+8,1722.3,discharge,3,5472,11,-345..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5483,,,,,,0,0,False
+8,1931.41,charge,1,5342,0,,none (no outside samples),,,,,5342,True,0,0,0.654891,0.654891,,,False
+8,1931.41,discharge,3,5323,12,-314..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,5335,,,,,,0,0,False
+8,2132.14,charge,1,5213,0,,none (no outside samples),,,,,5213,True,0,0,0.654596,0.654596,,,False
+8,2132.14,discharge,2,5196,10,-301..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,10,0,5206,,,,,,0,0,False
+8,2321.23,charge,1,5104,0,,none (no outside samples),,,,,5104,True,0,0,0.655271,0.655271,,,False
+8,2321.23,discharge,3,5087,11,-294..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5098,,,,,,0,0,False
+8,2496.44,charge,2,5032,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.656->0.656,4.200..4.200,after,0,1,5033,True,0,0,0.656069,0.656069,,,False
+8,2496.44,discharge,2,5002,10,-307..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,10,0,5012,,,,,,0,0,False
+8,2655,charge,1,4959,0,,none (no outside samples),,,,,4959,True,0,0,0.653959,0.653959,,,False
+8,2655,discharge,3,4926,13,-332..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,4939,,,,,,0,0,False
+8,2795.58,charge,1,4875,0,,none (no outside samples),,,,,4875,True,0,0,0.653731,0.653731,,,False
+8,2795.58,discharge,3,4842,16,-351..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,4858,,,,,,0,0,False
+8,2913.64,charge,1,4799,0,,none (no outside samples),,,,,4799,True,0,0,0.651515,0.651515,,,False
+8,2913.64,discharge,2,4769,16,-358..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,4785,,,,,,0,0,False
+9,0,charge,1,7172,0,,none (no outside samples),,,,,7172,True,0,0,0.596774,0.596774,,,False
+9,0,discharge,2,12,1,-100..-100,d(cap.max)=2.53e-04 Ah (0.1454 %),3.000..3.000,after,0,1,13,,,,,,0.000253288,0.145414,False
+9,198.772,charge,3,6841,69,100..399,max|dV|=975.152 mV; max|d(dV/dQ)|=2.281 V/Ah; q_monotonic_all=False; xpk nan->0.600,4.200..4.200,before,69,0,6910,False,975.152,2.28097,,0.600423,,,True
+9,198.772,discharge,1,6846,0,,none (no outside samples),,,,,6846,,,,,,0,0,False
+9,480.651,charge,2,6503,74,104..398,max|dV|=946.519 mV; max|d(dV/dQ)|=2.368 V/Ah; q_monotonic_all=False; xpk nan->0.597,4.200..4.200,before,74,0,6577,False,946.519,2.36816,,0.596882,,,True
+9,480.651,discharge,2,6508,1,-101..-101,d(cap.max)=2.90e-04 Ah (0.0064 %),3.000..3.000,after,0,1,6509,,,,,,0.000290187,0.00643075,False
+9,747.141,charge,2,6151,79,103..397,max|dV|=914.127 mV; max|d(dV/dQ)|=2.469 V/Ah; q_monotonic_all=False; xpk nan->0.588,4.200..4.200,before,79,0,6230,False,914.127,2.46894,,0.588235,,,True
+9,747.141,discharge,2,6158,1,-102..-102,d(cap.max)=2.71e-04 Ah (0.0063 %),3.000..3.000,after,0,1,6159,,,,,,0.000271122,0.00634977,False
+9,996.694,charge,2,5792,88,104..399,max|dV|=891.086 mV; max|d(dV/dQ)|=2.597 V/Ah; q_monotonic_all=False; xpk nan->0.578,4.200..4.200,before,88,0,5880,False,891.086,2.59673,,0.5775,,,True
+9,996.694,discharge,2,5799,1,-101..-101,d(cap.max)=1.19e-05 Ah (0.0003 %),3.000..3.000,after,0,1,5800,,,,,,1.18734e-05,0.000295325,False
+9,1227.68,charge,2,5287,94,104..400,max|dV|=853.053 mV; max|d(dV/dQ)|=2.626 V/Ah; q_monotonic_all=False; xpk nan->0.562,4.200..4.200,before,94,0,5381,False,853.053,2.6258,,0.561644,,,True
+9,1227.68,discharge,2,5296,1,-101..-101,d(cap.max)=2.36e-04 Ah (0.0064 %),3.000..3.000,after,0,1,5297,,,,,,0.00023582,0.00642295,False
+9,1430.91,charge,2,1332,110,103..399,"max|dV|=827.538 mV; max|d(dV/dQ)|=4.255 V/Ah; q_monotonic_all=False; xpk nan->0.556; qmax 3.046->0.925 Ah, grid 301->89 pts",4.200..4.200,before,110,0,1442,False,827.538,4.25495,,0.555556,,,True
+9,1430.91,discharge,2,4618,1,-100..-100,d(cap.max)=1.02e-04 Ah (0.0032 %),3.000..3.000,after,0,1,4619,,,,,,0.000101553,0.00317198,False
+10,0,charge,1,7270,0,,none (no outside samples),,,,,7270,True,0,0,0.599602,0.599602,,,False
+10,0,discharge,1,7079,0,,none (no outside samples),,,,,7079,,,,,,0,0,False
+10,369.446,charge,1,6738,0,,none (no outside samples),,,,,6738,True,0,0,0.604301,0.604301,,,False
+10,369.446,discharge,3,6767,18,-384..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6785,,,,,,0,0,False
+10,737.607,charge,1,6589,0,,none (no outside samples),,,,,6589,True,0,0,0.612335,0.612335,,,False
+10,737.607,discharge,3,6605,12,-324..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,6617,,,,,,0,0,False
+10,1095.69,charge,1,6448,0,,none (no outside samples),,,,,6448,True,0,0,0.617117,0.617117,,,False
+10,1095.69,discharge,3,6435,7,-288..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,7,0,6442,,,,,,0,0,False
+10,1450.16,charge,1,6352,0,,none (no outside samples),,,,,6352,True,0,0,0.616438,0.616438,,,False
+10,1450.16,discharge,2,6312,6,-282..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,6,0,6318,,,,,,0,0,False
+10,1796.36,charge,1,6151,0,,none (no outside samples),,,,,6151,True,0,0,0.617925,0.617925,,,False
+10,1796.36,discharge,3,6146,8,-256..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,8,0,6154,,,,,,0,0,False
+10,2134.41,charge,2,6081,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.616->0.616,4.200..4.200,after,0,1,6082,True,0,0,0.615752,0.615752,,,False
+10,2134.41,discharge,3,6041,7,-235..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,7,0,6048,,,,,,0,0,False
+10,2464.27,charge,1,5922,0,,none (no outside samples),,,,,5922,True,0,0,0.612745,0.612745,,,False
+10,2464.27,discharge,2,5885,8,-385..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,8,0,5893,,,,,,0,0,False
+10,2785.07,charge,2,5806,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.610->0.610,4.200..4.200,after,0,1,5807,True,0,0,0.61,0.61,,,False
+10,2785.07,discharge,3,5760,11,-249..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5771,,,,,,0,0,False
+10,3020.68,charge,2,5571,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.608->0.608,4.200..4.200,after,0,1,5572,True,0,0,0.608355,0.608355,,,False
+10,3020.68,discharge,2,5581,39,-297..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,39,0,5620,,,,,,0,0,False
+10,3322.97,charge,1,5452,0,,none (no outside samples),,,,,5452,True,0,0,0.605333,0.605333,,,False
+10,3322.97,discharge,3,5414,14,-387..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,5428,,,,,,0,0,False
+10,3612.97,charge,1,5251,0,,none (no outside samples),,,,,5251,True,0,0,0.601108,0.601108,,,False
+10,3612.97,discharge,3,5205,16,-398..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,5221,,,,,,0,0,False
+11,0,charge,1,7354,0,,none (no outside samples),,,,,7354,True,0,0,0.593688,0.593688,,,False
+11,0,discharge,1,7178,0,,none (no outside samples),,,,,7178,,,,,,0,0,False
+11,270.554,charge,1,6745,0,,none (no outside samples),,,,,6745,True,0,0,0.6,0.6,,,False
+11,270.554,discharge,2,6758,14,-335..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6772,,,,,,0,0,False
+11,558.883,charge,1,6645,0,,none (no outside samples),,,,,6645,True,0,0,0.615721,0.615721,,,False
+11,558.883,discharge,3,6588,14,-379..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6602,,,,,,0,0,False
+11,685.434,charge,2,6450,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.618->0.618,4.200..4.200,after,0,1,6451,True,0,0,0.617978,0.617978,,,False
+11,685.434,discharge,3,6434,18,-316..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6452,,,,,,0,0,False
+11,938.282,charge,1,6262,0,,none (no outside samples),,,,,6262,True,0,0,0.618056,0.618056,,,False
+11,938.282,discharge,3,6246,18,-295..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6264,,,,,,0,0,False
+11,1205.02,charge,1,6150,0,,none (no outside samples),,,,,6150,True,0,0,0.622642,0.622642,,,False
+11,1205.02,discharge,3,6127,20,-287..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,20,0,6147,,,,,,0,0,False
+11,1417.24,charge,1,6057,0,,none (no outside samples),,,,,6057,True,0,0,0.625899,0.625899,,,False
+11,1417.24,discharge,3,6026,18,-278..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6044,,,,,,0,0,False
+11,1670.73,charge,2,5913,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.631->0.631,4.200..4.200,after,0,1,5914,True,0,0,0.63145,0.63145,,,False
+11,1670.73,discharge,3,5882,19,-282..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5901,,,,,,0,0,False
+11,1917.2,charge,1,5741,0,,none (no outside samples),,,,,5741,True,0,0,0.635443,0.635443,,,False
+11,1917.2,discharge,2,5736,21,-263..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,21,0,5757,,,,,,0,0,False
+11,2159.21,charge,1,5614,0,,none (no outside samples),,,,,5614,True,0,0,0.637306,0.637306,,,False
+11,2159.21,discharge,3,5613,22,-384..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,22,0,5635,,,,,,0,0,False
+11,2393.67,charge,1,5518,0,,none (no outside samples),,,,,5518,True,0,0,0.639474,0.639474,,,False
+11,2393.67,discharge,2,5515,18,-369..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,5533,,,,,,0,0,False
+11,2624.52,charge,1,5472,0,,none (no outside samples),,,,,5472,True,0,0,0.639257,0.639257,,,False
+11,2624.52,discharge,3,5446,14,-364..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,5460,,,,,,0,0,False
+11,2852.9,charge,2,5412,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.642->0.642,4.200..4.200,after,0,1,5413,True,0,0,0.642473,0.642473,,,False
+11,2852.9,discharge,3,5377,12,-374..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,5389,,,,,,0,0,False
+11,3076.35,charge,2,5342,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.643->0.643,4.200..4.200,after,0,1,5343,True,0,0,0.643052,0.643052,,,False
+11,3076.35,discharge,3,5306,11,-366..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,11,0,5317,,,,,,0,0,False
+11,3298.17,charge,2,5276,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.642->0.642,4.200..4.200,after,0,1,5277,True,0,0,0.641873,0.641873,,,False
+11,3298.17,discharge,3,5242,10,-344..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,10,0,5252,,,,,,0,0,False
+12,0,charge,1,7241,0,,none (no outside samples),,,,,7241,True,0,0,0.590818,0.590818,,,False
+12,0,discharge,1,13,0,,none (no outside samples),,,,,13,,,,,,0,0,False
+12,80.4161,charge,2,7003,68,107..398,max|dV|=965.573 mV; max|d(dV/dQ)|=4.606 V/Ah; q_monotonic_all=False; xpk 0.492->0.595,4.200..4.200,before,68,0,7071,False,965.573,4.60573,0.491736,0.595041,,,True
+12,80.4161,discharge,1,7004,0,,none (no outside samples),,,,,7004,,,,,,0,0,False
+12,157.581,charge,2,6880,69,105..397,max|dV|=959.541 mV; max|d(dV/dQ)|=2.232 V/Ah; q_monotonic_all=False; xpk 0.794->0.600,4.200..4.200,before,69,0,6949,False,959.541,2.23219,0.793684,0.6,,,True
+12,157.581,discharge,2,6885,1,-101..-101,d(cap.max)=9.63e-05 Ah (0.0020 %),3.000..3.000,after,0,1,6886,,,,,,9.63097e-05,0.00201591,False
+12,226.697,charge,2,6770,69,105..391,max|dV|=949.063 mV; max|d(dV/dQ)|=5.114 V/Ah; q_monotonic_all=False; xpk 0.600->0.600,4.200..4.200,before,69,0,6839,False,949.063,5.11429,0.600427,0.600427,,,True
+12,226.697,discharge,1,6774,0,,none (no outside samples),,,,,6774,,,,,,0,0,False
+12,340.009,charge,3,6622,73,100..393,max|dV|=933.249 mV; max|d(dV/dQ)|=4.857 V/Ah; q_monotonic_all=False; xpk 0.602->0.602,4.200..4.200,before,73,0,6695,False,933.249,4.85678,0.601751,0.601751,,,True
+12,340.009,discharge,2,6629,1,-100..-100,d(cap.max)=1.55e-05 Ah (0.0003 %),3.000..3.000,after,0,1,6630,,,,,,1.55021e-05,0.000337019,False
+12,413.484,charge,2,6536,74,103..394,max|dV|=932.540 mV; max|d(dV/dQ)|=2.322 V/Ah; q_monotonic_all=False; xpk 0.745->0.603,4.200..4.200,before,74,0,6610,False,932.54,2.32203,0.745011,0.603104,,,True
+12,413.484,discharge,2,6545,1,-103..-103,d(cap.max)=3.25e-04 Ah (0.0072 %),3.000..3.000,after,0,1,6546,,,,,,0.000324757,0.00715038,False
+12,531.081,charge,2,6394,77,104..392,max|dV|=919.888 mV; max|d(dV/dQ)|=4.170 V/Ah; q_monotonic_all=False; xpk 0.499->0.601,4.200..4.200,before,77,0,6471,False,919.888,4.16963,0.498866,0.600907,,,True
+12,531.081,discharge,2,6404,1,-103..-103,d(cap.max)=3.27e-04 Ah (0.0074 %),3.000..3.000,after,0,1,6405,,,,,,0.000327218,0.00736218,False
+12,818.015,charge,2,6101,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.590->0.590,4.200..4.200,after,0,1,6102,True,0,0,0.590476,0.590476,,,False
+12,818.015,discharge,3,6116,43,-343..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,43,0,6159,,,,,,0,0,False
+12,1138.26,charge,1,5820,0,,none (no outside samples),,,,,5820,True,0,0,0.5825,0.5825,,,False
+12,1138.26,discharge,3,5756,12,-280..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,5768,,,,,,0,0,False
+12,1490.58,charge,2,5055,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.559->0.559,4.200..4.200,after,0,1,5056,True,0,0,0.559078,0.559078,,,False
+12,1490.58,discharge,3,5058,81,-395..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,81,0,5139,,,,,,0,0,False
+13,0,charge,1,7364,0,,none (no outside samples),,,,,7364,True,0,0,0.59252,0.59252,,,False
+13,0,discharge,1,7173,0,,none (no outside samples),,,,,7173,,,,,,0,0,False
+13,207.333,charge,2,6851,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.592->0.592,4.200..4.200,after,0,1,6852,True,0,0,0.591966,0.591966,,,False
+13,207.333,discharge,3,6886,15,-394..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,15,0,6901,,,,,,0,0,False
+13,414.587,charge,1,6700,0,,none (no outside samples),,,,,6700,True,0,0,0.597403,0.597403,,,False
+13,414.587,discharge,3,6734,13,-371..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6747,,,,,,0,0,False
+13,618.185,charge,1,6541,0,,none (no outside samples),,,,,6541,True,0,0,0.600887,0.600887,,,False
+13,618.185,discharge,3,6582,15,-336..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,15,0,6597,,,,,,0,0,False
+13,825.221,charge,1,6450,0,,none (no outside samples),,,,,6450,True,0,0,0.602247,0.602247,,,False
+13,825.221,discharge,3,6489,17,-328..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,6506,,,,,,0,0,False
+13,1032.19,charge,1,6340,0,,none (no outside samples),,,,,6340,True,0,0,0.604119,0.604119,,,False
+13,1032.19,discharge,2,6380,20,-330..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,20,0,6400,,,,,,0,0,False
+13,1239.09,charge,1,6247,0,,none (no outside samples),,,,,6247,True,0,0,0.603248,0.603248,,,False
+13,1239.09,discharge,2,6286,22,-296..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,22,0,6308,,,,,,0,0,False
+13,1445.92,charge,2,6137,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.603->0.603,4.200..4.200,after,0,1,6138,True,0,0,0.602837,0.602837,,,False
+13,1445.92,discharge,2,6170,27,-309..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,27,0,6197,,,,,,0,0,False
+13,1652.67,charge,1,6008,0,,none (no outside samples),,,,,6008,True,0,0,0.601449,0.601449,,,False
+13,1652.67,discharge,2,6052,30,-303..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,30,0,6082,,,,,,0,0,False
+13,1856.5,charge,2,5896,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.599->0.599,4.200..4.200,after,0,1,5897,True,0,0,0.598522,0.598522,,,False
+13,1856.5,discharge,3,5933,35,-304..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,35,0,5968,,,,,,0,0,False
+13,2063.09,charge,1,5774,0,,none (no outside samples),,,,,5774,True,0,0,0.595477,0.595477,,,False
+13,2063.09,discharge,2,5810,38,-306..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,38,0,5848,,,,,,0,0,False
+13,2269.59,charge,1,5631,0,,none (no outside samples),,,,,5631,True,0,0,0.592784,0.592784,,,False
+13,2269.59,discharge,3,5668,43,-309..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,43,0,5711,,,,,,0,0,False
+13,2475.95,charge,1,5486,0,,none (no outside samples),,,,,5486,True,0,0,0.589947,0.589947,,,False
+13,2475.95,discharge,3,5510,46,-313..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,46,0,5556,,,,,,0,0,False
+13,2682.25,charge,1,5304,0,,none (no outside samples),,,,,5304,True,0,0,0.589041,0.589041,,,False
+13,2682.25,discharge,2,5330,49,-316..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,49,0,5379,,,,,,0,0,False
+14,0,charge,1,7292,0,,none (no outside samples),,,,,7292,True,0,0,0.596421,0.596421,,,False
+14,0,discharge,1,7120,0,,none (no outside samples),,,,,7120,,,,,,0,0,False
+14,155.362,charge,2,6862,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.598->0.598,4.200..4.200,after,0,1,6863,True,0,0,0.598309,0.598309,,,False
+14,155.362,discharge,3,6891,14,-398..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6905,,,,,,0,0,False
+14,362.484,charge,1,6807,0,,none (no outside samples),,,,,6807,True,0,0,0.608511,0.608511,,,False
+14,362.484,discharge,2,6764,10,-325..-106,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,10,0,6774,,,,,,0,0,False
+14,437.522,charge,1,6686,0,,none (no outside samples),,,,,6686,True,0,0,0.613883,0.613883,,,False
+14,437.522,discharge,3,6660,13,-351..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6673,,,,,,0,0,False
+14,585.038,charge,1,6581,0,,none (no outside samples),,,,,6581,True,0,0,0.614537,0.614537,,,False
+14,585.038,discharge,3,6563,12,-324..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,6575,,,,,,0,0,False
+14,754.318,charge,1,6520,0,,none (no outside samples),,,,,6520,True,0,0,0.615556,0.615556,,,False
+14,754.318,discharge,3,6498,13,-309..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6511,,,,,,0,0,False
+14,882.446,charge,1,6475,0,,none (no outside samples),,,,,6475,True,0,0,0.61745,0.61745,,,False
+14,882.446,discharge,3,6445,12,-303..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,6457,,,,,,0,0,False
+14,1053.51,charge,1,6384,0,,none (no outside samples),,,,,6384,True,0,0,0.618182,0.618182,,,False
+14,1053.51,discharge,2,6353,12,-310..-105,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,6365,,,,,,0,0,False
+14,1260.28,charge,1,6231,0,,none (no outside samples),,,,,6231,True,0,0,0.618605,0.618605,,,False
+14,1260.28,discharge,3,6233,17,-280..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,6250,,,,,,0,0,False
+14,1431.9,charge,2,6145,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.620->0.620,4.200..4.200,after,0,1,6146,True,0,0,0.620283,0.620283,,,False
+14,1431.9,discharge,3,6148,18,-271..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6166,,,,,,0,0,False
+14,1599.1,charge,1,6059,0,,none (no outside samples),,,,,6059,True,0,0,0.62201,0.62201,,,False
+14,1599.1,discharge,3,6066,19,-267..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,6085,,,,,,0,0,False
+14,1768.66,charge,2,6031,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.623->0.623,4.200..4.200,after,0,1,6032,True,0,0,0.622596,0.622596,,,False
+14,1768.66,discharge,3,6014,18,-266..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,6032,,,,,,0,0,False
+14,1937.1,charge,1,5985,0,,none (no outside samples),,,,,5985,True,0,0,0.623786,0.623786,,,False
+14,1937.1,discharge,3,5958,18,-280..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,18,0,5976,,,,,,0,0,False
+14,2107.99,charge,1,5915,0,,none (no outside samples),,,,,5915,True,0,0,0.624079,0.624079,,,False
+14,2107.99,discharge,3,5890,19,-273..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5909,,,,,,0,0,False
+14,2259.04,charge,2,5851,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.623->0.623,4.200..4.200,after,0,1,5852,True,0,0,0.622829,0.622829,,,False
+14,2259.04,discharge,2,5829,19,-260..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5848,,,,,,0,0,False
+15,0,charge,1,7106,0,,none (no outside samples),,,,,7106,True,0,0,0.600815,0.600815,,,False
+15,0,discharge,2,13,1,-100..-100,d(cap.max)=5.63e-05 Ah (0.0325 %),3.000..3.000,after,0,1,14,,,,,,5.62873e-05,0.0324535,False
+15,46.763,charge,2,4771,62,106..395,max|dV|=955.258 mV; max|d(dV/dQ)|=4.848 V/Ah; q_monotonic_all=False; xpk 0.605->nan,4.200..4.200,before,62,0,4833,False,955.258,4.8478,0.604863,,,,True
+15,46.763,discharge,2,6864,1,-100..-100,d(cap.max)=1.40e-04 Ah (0.0029 %),3.000..3.000,after,0,1,6865,,,,,,0.000139849,0.00293627,False
+15,90.9166,charge,2,6747,61,106..396,max|dV|=948.215 mV; max|d(dV/dQ)|=6.220 V/Ah; q_monotonic_all=False; xpk 0.612->0.612,4.200..4.200,before,61,0,6808,False,948.215,6.22,0.611588,0.611588,,,True
+15,90.9166,discharge,2,6751,1,-101..-101,d(cap.max)=6.11e-06 Ah (0.0001 %),3.000..3.000,after,0,1,6752,,,,,,6.11121e-06,0.000130434,False
+15,117.888,charge,2,6671,65,103..397,max|dV|=947.423 mV; max|d(dV/dQ)|=4.871 V/Ah; q_monotonic_all=False; xpk 0.614->0.614,4.200..4.200,before,65,0,6736,False,947.423,4.87124,0.613883,0.613883,,,True
+15,117.888,discharge,2,6675,1,-101..-101,d(cap.max)=3.09e-04 Ah (0.0067 %),3.000..3.000,after,0,1,6676,,,,,,0.000309003,0.00666948,False
+15,183.401,charge,2,6517,58,106..392,max|dV|=927.164 mV; max|d(dV/dQ)|=5.700 V/Ah; q_monotonic_all=False; xpk 0.618->0.618,4.200..4.200,before,58,0,6575,False,927.164,5.70003,0.617778,0.617778,,,True
+15,183.401,discharge,1,6523,0,,none (no outside samples),,,,,6523,,,,,,0,0,False
+15,225.571,charge,2,6462,67,104..392,max|dV|=927.836 mV; max|d(dV/dQ)|=4.273 V/Ah; q_monotonic_all=False; xpk 0.554->0.621,4.200..4.200,before,67,0,6529,False,927.836,4.27341,0.553812,0.621076,,,True
+15,225.571,discharge,2,6469,1,-101..-101,d(cap.max)=2.54e-04 Ah (0.0057 %),3.000..3.000,after,0,1,6470,,,,,,0.000254087,0.00565915,False
+15,293.276,charge,2,6348,69,105..394,max|dV|=918.119 mV; max|d(dV/dQ)|=4.749 V/Ah; q_monotonic_all=False; xpk 0.425->0.623,4.200..4.200,before,69,0,6417,False,918.119,4.74891,0.424658,0.623288,,,True
+15,293.276,discharge,2,6356,1,-100..-100,d(cap.max)=2.34e-04 Ah (0.0053 %),3.000..3.000,after,0,1,6357,,,,,,0.000233987,0.00530303,False
+15,458.185,charge,1,6116,0,,none (no outside samples),,,,,6116,True,0,0,0.619952,0.619952,,,False
+15,458.185,discharge,3,6159,26,-323..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,26,0,6185,,,,,,0,0,False
+15,664.848,charge,1,5901,0,,none (no outside samples),,,,,5901,True,0,0,0.623153,0.623153,,,False
+15,664.848,discharge,3,5937,36,-328..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,36,0,5973,,,,,,0,0,False
+15,868.559,charge,1,5698,0,,none (no outside samples),,,,,5698,True,0,0,0.622449,0.622449,,,False
+15,868.559,discharge,3,5736,42,-330..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,42,0,5778,,,,,,0,0,False
+16,0,charge,1,7278,0,,none (no outside samples),,,,,7278,True,0,0,0.59841,0.59841,,,False
+16,0,discharge,1,7090,0,,none (no outside samples),,,,,7090,,,,,,0,0,False
+16,207.232,charge,1,6793,0,,none (no outside samples),,,,,6793,True,0,0,0.601279,0.601279,,,False
+16,207.232,discharge,3,6823,14,-332..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,14,0,6837,,,,,,0,0,False
+16,414.384,charge,1,6662,0,,none (no outside samples),,,,,6662,True,0,0,0.606522,0.606522,,,False
+16,414.384,discharge,3,6699,14,-343..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,14,0,6713,,,,,,0,0,False
+16,621.445,charge,1,6553,0,,none (no outside samples),,,,,6553,True,0,0,0.610619,0.610619,,,False
+16,621.445,discharge,2,6596,13,-321..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,13,0,6609,,,,,,0,0,False
+16,828.43,charge,2,6459,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.614->0.614,4.200..4.200,after,0,1,6460,True,0,0,0.61435,0.61435,,,False
+16,828.43,discharge,3,6497,18,-333..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,18,0,6515,,,,,,0,0,False
+16,1035.35,charge,1,6381,0,,none (no outside samples),,,,,6381,True,0,0,0.618182,0.618182,,,False
+16,1035.35,discharge,3,6422,19,-332..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,6441,,,,,,0,0,False
+16,1242.2,charge,1,6294,0,,none (no outside samples),,,,,6294,True,0,0,0.619816,0.619816,,,False
+16,1242.2,discharge,2,6336,21,-338..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,21,0,6357,,,,,,0,0,False
+16,1445.28,charge,2,6165,1,101..101,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.621->0.621,4.200..4.200,after,0,1,6166,True,0,0,0.621176,0.621176,,,False
+16,1445.28,discharge,3,6203,27,-302..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,27,0,6230,,,,,,0,0,False
+16,1652.05,charge,2,6165,1,101..101,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.621->0.621,4.200..4.200,after,0,1,6166,True,0,0,0.621176,0.621176,,,False
+16,1652.05,discharge,3,6203,27,-302..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,27,0,6230,,,,,,0,0,False
+16,1858.75,charge,1,6081,0,,none (no outside samples),,,,,6081,True,0,0,0.622912,0.622912,,,False
+16,1858.75,discharge,3,6118,30,-296..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,30,0,6148,,,,,,0,0,False
+16,2065.4,charge,1,6006,0,,none (no outside samples),,,,,6006,True,0,0,0.623188,0.623188,,,False
+16,2065.4,discharge,3,6045,32,-300..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,32,0,6077,,,,,,0,0,False
+16,2271.99,charge,1,5943,0,,none (no outside samples),,,,,5943,True,0,0,0.621951,0.621951,,,False
+16,2271.99,discharge,2,5977,34,-305..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,34,0,6011,,,,,,0,0,False
+16,2476.24,charge,2,5844,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.620->0.620,4.200..4.200,after,0,1,5845,True,0,0,0.620347,0.620347,,,False
+16,2476.24,discharge,3,5888,38,-299..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,38,0,5926,,,,,,0,0,False
+16,2682.73,charge,1,5787,0,,none (no outside samples),,,,,5787,True,0,0,0.621554,0.621554,,,False
+16,2682.73,discharge,3,5819,41,-305..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,41,0,5860,,,,,,0,0,False
+17,0,charge,1,7340,0,,none (no outside samples),,,,,7340,True,0,0,0.593688,0.593688,,,False
+17,0,discharge,1,7167,0,,none (no outside samples),,,,,7167,,,,,,0,0,False
+17,202.476,charge,1,6814,0,,none (no outside samples),,,,,6814,True,0,0,0.597872,0.597872,,,False
+17,202.476,discharge,2,6838,13,-347..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,13,0,6851,,,,,,0,0,False
+17,409.532,charge,1,6748,0,,none (no outside samples),,,,,6748,True,0,0,0.613734,0.613734,,,False
+17,409.532,discharge,2,6700,12,-387..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,12,0,6712,,,,,,0,0,False
+17,532.655,charge,1,6564,0,,none (no outside samples),,,,,6564,True,0,0,0.615894,0.615894,,,False
+17,532.655,discharge,3,6547,15,-315..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,15,0,6562,,,,,,0,0,False
+17,735.344,charge,1,6401,0,,none (no outside samples),,,,,6401,True,0,0,0.617647,0.617647,,,False
+17,735.344,discharge,3,6390,16,-290..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,16,0,6406,,,,,,0,0,False
+17,942.092,charge,2,6305,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.623->0.623,4.200..4.200,after,0,1,6306,True,0,0,0.622989,0.622989,,,False
+17,942.092,discharge,2,6289,16,-280..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,16,0,6305,,,,,,0,0,False
+17,1148.75,charge,1,6204,0,,none (no outside samples),,,,,6204,True,0,0,0.626168,0.626168,,,False
+17,1148.75,discharge,2,6181,16,-270..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,16,0,6197,,,,,,0,0,False
+17,1355.32,charge,2,6079,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.630->0.630,4.200..4.200,after,0,1,6080,True,0,0,0.630072,0.630072,,,False
+17,1355.32,discharge,2,6053,18,-276..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,18,0,6071,,,,,,0,0,False
+17,1561.81,charge,1,5886,0,,none (no outside samples),,,,,5886,True,0,0,0.633005,0.633005,,,False
+17,1561.81,discharge,3,5895,26,-393..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,26,0,5921,,,,,,0,0,False
+17,1768.18,charge,1,5756,0,,none (no outside samples),,,,,5756,True,0,0,0.63728,0.63728,,,False
+17,1768.18,discharge,3,5769,25,-376..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,25,0,5794,,,,,,0,0,False
+17,1974.46,charge,1,5648,0,,none (no outside samples),,,,,5648,True,0,0,0.640103,0.640103,,,False
+17,1974.46,discharge,3,5659,24,-357..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,24,0,5683,,,,,,0,0,False
+17,2180.69,charge,1,5600,0,,none (no outside samples),,,,,5600,True,0,0,0.642487,0.642487,,,False
+17,2180.69,discharge,3,5588,21,-358..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,21,0,5609,,,,,,0,0,False
+17,2386.88,charge,2,5548,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.644->0.644,4.200..4.200,after,0,1,5549,True,0,0,0.643979,0.643979,,,False
+17,2386.88,discharge,2,5525,19,-371..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,19,0,5544,,,,,,0,0,False
+17,2593,charge,1,5462,0,,none (no outside samples),,,,,5462,True,0,0,0.643617,0.643617,,,False
+17,2593,discharge,2,5441,19,-364..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,19,0,5460,,,,,,0,0,False
+17,2799.07,charge,1,5381,0,,none (no outside samples),,,,,5381,True,0,0,0.643243,0.643243,,,False
+17,2799.07,discharge,3,5363,18,-340..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,18,0,5381,,,,,,0,0,False
+18,0,charge,1,7175,0,,none (no outside samples),,,,,7175,True,0,0,0.600806,0.600806,,,False
+18,0,discharge,2,13,1,-100..-100,d(cap.max)=9.77e-05 Ah (0.0559 %),3.000..3.000,after,0,1,14,,,,,,9.77262e-05,0.0558703,False
+18,78.6977,charge,3,6896,62,100..399,max|dV|=950.391 mV; max|d(dV/dQ)|=5.316 V/Ah; q_monotonic_all=False; xpk 0.606->0.606,4.200..4.201,before,62,0,6958,False,950.391,5.31598,0.60587,0.60587,,,True
+18,78.6977,discharge,1,6902,0,,none (no outside samples),,,,,6902,,,,,,0,0,False
+18,152.588,charge,2,6766,62,105..397,max|dV|=943.476 mV; max|d(dV/dQ)|=5.836 V/Ah; q_monotonic_all=False; xpk 0.611->0.611,4.200..4.201,before,62,0,6828,False,943.476,5.83605,0.611111,0.611111,,,True
+18,152.588,discharge,1,6774,0,,none (no outside samples),,,,,6774,,,,,,0,0,False
+18,220.712,charge,2,6656,63,104..390,max|dV|=936.599 mV; max|d(dV/dQ)|=4.976 V/Ah; q_monotonic_all=False; xpk 0.613->0.613,4.200..4.200,before,63,0,6719,False,936.599,4.97626,0.613043,0.613043,,,True
+18,220.712,discharge,2,6665,1,-100..-100,d(cap.max)=2.99e-04 Ah (0.0065 %),3.000..3.000,after,0,1,6666,,,,,,0.000298941,0.00646573,False
+18,327.798,charge,2,6485,65,107..396,max|dV|=920.318 mV; max|d(dV/dQ)|=4.141 V/Ah; q_monotonic_all=False; xpk 0.516->0.614,4.200..4.200,before,65,0,6550,False,920.318,4.14103,0.515625,0.613839,,,True
+18,327.798,discharge,2,6495,1,-101..-101,d(cap.max)=2.62e-04 Ah (0.0058 %),3.000..3.000,after,0,1,6496,,,,,,0.000262226,0.00581917,False
+18,398.517,charge,2,6405,57,105..397,max|dV|=916.567 mV; max|d(dV/dQ)|=5.137 V/Ah; q_monotonic_all=False; xpk 0.616->0.616,4.200..4.200,before,57,0,6462,False,916.567,5.13654,0.616253,0.616253,,,True
+18,398.517,discharge,2,6422,1,-101..-101,d(cap.max)=2.45e-04 Ah (0.0055 %),3.000..3.000,after,0,1,6423,,,,,,0.000245115,0.00550145,False
+18,505.446,charge,2,6275,71,105..394,max|dV|=906.478 mV; max|d(dV/dQ)|=3.984 V/Ah; q_monotonic_all=False; xpk 0.594->0.617,4.200..4.201,before,71,0,6346,False,906.478,3.98438,0.593533,0.616628,,,True
+18,505.446,discharge,2,6287,1,-101..-101,d(cap.max)=2.46e-04 Ah (0.0056 %),3.000..3.000,after,0,1,6288,,,,,,0.000246128,0.00564214,False
+18,789.088,charge,1,5980,0,,none (no outside samples),,,,,5980,True,0,0,0.61165,0.61165,,,False
+18,789.088,discharge,2,6025,36,-328..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,36,0,6061,,,,,,0,0,False
+18,1137.47,charge,2,5685,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.611->0.611,4.200..4.200,after,0,1,5686,True,0,0,0.611253,0.611253,,,False
+18,1137.47,discharge,3,5722,49,-337..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.001,before,49,0,5771,,,,,,0,0,False
+18,1488.88,charge,2,5360,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.604->0.604,4.200..4.200,after,0,1,5361,True,0,0,0.604336,0.604336,,,False
+18,1488.88,discharge,2,5390,57,-341..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,57,0,5447,,,,,,0,0,False
+19,0,charge,1,7416,0,,none (no outside samples),,,,,7416,True,0,0,0.589844,0.589844,,,False
+19,0,discharge,1,7173,0,,none (no outside samples),,,,,7173,,,,,,0,0,False
+19,211.978,charge,1,6889,0,,none (no outside samples),,,,,6889,True,0,0,0.597895,0.597895,,,False
+19,211.978,discharge,2,6915,13,-333..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,13,0,6928,,,,,,0,0,False
+19,423.857,charge,1,6717,0,,none (no outside samples),,,,,6717,True,0,0,0.601293,0.601293,,,False
+19,423.857,discharge,3,6741,14,-384..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6755,,,,,,0,0,False
+19,635.636,charge,2,6569,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.605->0.605,4.200..4.200,after,0,1,6570,True,0,0,0.604857,0.604857,,,False
+19,635.636,discharge,2,6604,15,-331..-104,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,15,0,6619,,,,,,0,0,False
+19,847.326,charge,1,6416,0,,none (no outside samples),,,,,6416,True,0,0,0.604966,0.604966,,,False
+19,847.326,discharge,3,6458,17,-314..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,6475,,,,,,0,0,False
+19,1058.93,charge,2,6307,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.607->0.607,4.200..4.200,after,0,1,6308,True,0,0,0.606897,0.606897,,,False
+19,1058.93,discharge,3,6336,21,-312..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,21,0,6357,,,,,,0,0,False
+19,1270.43,charge,1,6163,0,,none (no outside samples),,,,,6163,True,0,0,0.607059,0.607059,,,False
+19,1270.43,discharge,2,6197,22,-309..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,22,0,6219,,,,,,0,0,False
+19,1481.84,charge,1,6060,0,,none (no outside samples),,,,,6060,True,0,0,0.607656,0.607656,,,False
+19,1481.84,discharge,3,6085,26,-294..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,26,0,6111,,,,,,0,0,False
+19,1693.17,charge,2,5944,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.605->0.605,4.200..4.200,after,0,1,5945,True,0,0,0.604878,0.604878,,,False
+19,1693.17,discharge,3,5980,29,-286..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,29,0,6009,,,,,,0,0,False
+19,1904.42,charge,2,5826,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.606->0.606,4.200..4.200,after,0,1,5827,True,0,0,0.605985,0.605985,,,False
+19,1904.42,discharge,3,5863,31,-284..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,31,0,5894,,,,,,0,0,False
+19,2115.61,charge,1,5718,0,,none (no outside samples),,,,,5718,True,0,0,0.601523,0.601523,,,False
+19,2115.61,discharge,2,5752,35,-397..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,35,0,5787,,,,,,0,0,False
+19,2326.72,charge,1,5616,0,,none (no outside samples),,,,,5616,True,0,0,0.602067,0.602067,,,False
+19,2326.72,discharge,2,5640,36,-290..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,36,0,5676,,,,,,0,0,False
+20,0,charge,2,7303,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.595->0.595,4.200..4.200,after,0,1,7304,True,0,0,0.595238,0.595238,,,False
+20,0,discharge,1,7120,0,,none (no outside samples),,,,,7120,,,,,,0,0,False
+20,207.204,charge,1,6811,0,,none (no outside samples),,,,,6811,True,0,0,0.597872,0.597872,,,False
+20,207.204,discharge,3,6834,16,-376..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,6850,,,,,,0,0,False
+20,418.93,charge,1,6706,0,,none (no outside samples),,,,,6706,True,0,0,0.615551,0.615551,,,False
+20,418.93,discharge,2,6659,12,-381..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,12,0,6671,,,,,,0,0,False
+20,556.292,charge,1,6523,0,,none (no outside samples),,,,,6523,True,0,0,0.62,0.62,,,False
+20,556.292,discharge,2,6501,14,-308..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6515,,,,,,0,0,False
+20,763.683,charge,2,6378,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.625->0.625,4.200..4.200,after,0,1,6379,True,0,0,0.625,0.625,,,False
+20,763.683,discharge,2,6362,14,-284..-103,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,14,0,6376,,,,,,0,0,False
+20,975.106,charge,1,6290,0,,none (no outside samples),,,,,6290,True,0,0,0.629032,0.629032,,,False
+20,975.106,discharge,3,6267,16,-274..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,6283,,,,,,0,0,False
+20,1186.45,charge,2,6196,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.632->0.632,4.200..4.200,after,0,1,6197,True,0,0,0.632319,0.632319,,,False
+20,1186.45,discharge,3,6167,16,-265..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,16,0,6183,,,,,,0,0,False
+20,1397.72,charge,1,6082,0,,none (no outside samples),,,,,6082,True,0,0,0.637232,0.637232,,,False
+20,1397.72,discharge,3,6049,17,-272..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,6066,,,,,,0,0,False
+20,1608.91,charge,1,5914,0,,none (no outside samples),,,,,5914,True,0,0,0.639706,0.639706,,,False
+20,1608.91,discharge,3,5912,23,-387..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,23,0,5935,,,,,,0,0,False
+20,1820,charge,1,5795,0,,none (no outside samples),,,,,5795,True,0,0,0.64411,0.64411,,,False
+20,1820,discharge,3,5796,23,-369..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,23,0,5819,,,,,,0,0,False
+20,2031.01,charge,2,5690,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.648->0.648,4.200..4.200,after,0,1,5691,True,0,0,0.647959,0.647959,,,False
+20,2031.01,discharge,3,5691,22,-355..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,22,0,5713,,,,,,0,0,False
+20,2241.95,charge,1,5640,0,,none (no outside samples),,,,,5640,True,0,0,0.650386,0.650386,,,False
+20,2241.95,discharge,3,5622,19,-355..-101,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5641,,,,,,0,0,False
+20,2452.88,charge,2,5579,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.654->0.654,4.200..4.200,after,0,1,5580,True,0,0,0.653646,0.653646,,,False
+20,2452.88,discharge,3,5553,19,-372..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5572,,,,,,0,0,False
+20,2663.75,charge,2,5493,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.656->0.656,4.200..4.200,after,0,1,5494,True,0,0,0.656085,0.656085,,,False
+20,2663.75,discharge,3,5468,19,-362..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,19,0,5487,,,,,,0,0,False
+20,2874.57,charge,1,5405,0,,none (no outside samples),,,,,5405,True,0,0,0.655914,0.655914,,,False
+20,2874.57,discharge,2,5386,17,-341..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,17,0,5403,,,,,,0,0,False
+21,0,charge,1,7218,0,,none (no outside samples),,,,,7218,True,0,0,0.593186,0.593186,,,False
+21,0,discharge,1,15,0,,none (no outside samples),,,,,15,,,,,,0,0,False
+21,99.5856,charge,3,6912,63,100..391,max|dV|=957.858 mV; max|d(dV/dQ)|=4.437 V/Ah; q_monotonic_all=False; xpk 0.533->0.600,4.200..4.200,before,63,0,6975,False,957.858,4.43655,0.533473,0.600418,,,True
+21,99.5856,discharge,1,6917,0,,none (no outside samples),,,,,6917,,,,,,0,0,False
+21,193.876,charge,3,6727,62,101..394,max|dV|=945.358 mV; max|d(dV/dQ)|=4.352 V/Ah; q_monotonic_all=False; xpk 0.544->0.604,4.200..4.200,before,62,0,6789,False,945.358,4.35234,0.544086,0.604301,,,True
+21,193.876,discharge,2,6733,1,-100..-100,d(cap.max)=2.98e-04 Ah (0.0064 %),3.000..3.000,after,0,1,6734,,,,,,0.00029781,0.00637638,False
+21,280.754,charge,3,6564,51,100..395,max|dV|=933.569 mV; max|d(dV/dQ)|=6.317 V/Ah; q_monotonic_all=False; xpk 0.604->0.604,4.200..4.200,before,51,0,6615,False,933.569,6.31725,0.603524,0.603524,,,True
+21,280.754,discharge,2,6580,1,-101..-101,d(cap.max)=2.28e-04 Ah (0.0050 %),3.000..3.000,after,0,1,6581,,,,,,0.000227634,0.00498753,False
+21,390.184,charge,2,6363,69,104..400,max|dV|=917.569 mV; max|d(dV/dQ)|=4.069 V/Ah; q_monotonic_all=False; xpk 0.580->0.602,4.200..4.200,before,69,0,6432,False,917.569,4.06892,0.579545,0.602273,,,True
+21,390.184,discharge,2,6370,1,-101..-101,d(cap.max)=2.18e-04 Ah (0.0049 %),3.000..3.000,after,0,1,6371,,,,,,0.000218424,0.0049434,False
+21,479.491,charge,3,6221,71,100..392,max|dV|=909.395 mV; max|d(dV/dQ)|=4.458 V/Ah; q_monotonic_all=False; xpk 0.491->0.602,4.200..4.200,before,71,0,6292,False,909.395,4.458,0.490698,0.602326,,,True
+21,479.491,discharge,2,6233,1,-101..-101,d(cap.max)=1.80e-04 Ah (0.0042 %),3.000..3.000,after,0,1,6234,,,,,,0.000179655,0.0041559,False
+21,588.707,charge,2,6052,76,102..399,max|dV|=900.569 mV; max|d(dV/dQ)|=3.800 V/Ah; q_monotonic_all=False; xpk 0.608->0.600,4.200..4.200,before,76,0,6128,False,900.569,3.80002,0.607656,0.600478,,,True
+21,588.707,discharge,2,6061,1,-101..-101,d(cap.max)=1.87e-04 Ah (0.0044 %),3.000..3.000,after,0,1,6062,,,,,,0.000186807,0.00444336,False
+21,931.622,charge,1,5624,0,,none (no outside samples),,,,,5624,True,0,0,0.589147,0.589147,,,False
+21,931.622,discharge,3,5655,43,-310..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,43,0,5698,,,,,,0,0,False
+21,1332.77,charge,2,5182,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.587->0.587,4.200..4.200,after,0,1,5183,True,0,0,0.587079,0.587079,,,False
+21,1332.77,discharge,2,5188,41,-306..-102,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,41,0,5229,,,,,,0,0,False
+21,1745.91,charge,2,4431,1,100..100,max|dV|=0.000 mV; max|d(dV/dQ)|=0.000 V/Ah; q_monotonic_all=True; xpk 0.579->0.579,4.200..4.200,after,0,1,4432,True,0,0,0.578947,0.578947,,,False
+21,1745.91,discharge,3,4437,59,-340..-100,d(cap.max)=0.00e+00 Ah (0.0000 %),3.000..3.000,before,59,0,4496,,,,,,0,0,False
